@@ -49,5 +49,10 @@
   "GENERAL": {
     "MORE_DETAILS": "More details",
     "ALL": "All"
+  },
+  "FOOTER": {
+    "OK": "Do not show it again",
+    "RIGHTS": "All rights reserved",
+    "LEGAL": "Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted."
   }
 }

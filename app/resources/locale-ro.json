@@ -49,5 +49,10 @@
   "GENERAL": {
     "MORE_DETAILS": "Mai multe detalii",
     "ALL": "Toate"
+  },
+  "FOOTER": {
+    "OK": "Nu mai afișa în viitor",
+    "RIGHTS": "Toate drepturile rezervate",
+    "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
   }
 }

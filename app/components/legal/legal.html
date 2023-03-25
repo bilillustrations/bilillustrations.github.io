@@ -1,0 +1,18 @@
+<div class="w-100 bg-danger text-center p-3 text-white" ng-if="displayLegal" id="legal">
+    <div class="mb-3">
+        &copy; Copyright <strong><span>Bilyana Velikova</span></strong> -  {{"FOOTER.RIGHTS" | translate}}
+        <BR />
+        {{"FOOTER.LEGAL" | translate}}
+    </div>
+    <div>
+        <button type="button" class="btn btn-light" ng-click="readLegal()">{{"FOOTER.OK" | translate}}</button>
+    </div>
+</div>
+
+<style>
+    #legal {
+        z-index: 9999;
+        position: fixed;
+        bottom: 0;
+    }
+</style>
