@@ -79,7 +79,6 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
   overflow-y: auto;
 }
 
@@ -828,19 +827,19 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info i {
-  font-size: 20px;
-  color: #ec2224;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #dff3fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
+    .contact .info i {
+        font-size: 20px;
+        color: #ec2224;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background: #ff88c9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+    }
 
 .contact .info h4 {
   padding: 0 0 0 60px;
