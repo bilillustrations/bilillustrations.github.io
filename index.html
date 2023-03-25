@@ -6,6 +6,7 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="icon" type="image/x-icon" href="favicon.png" />
     <!-- Favicons -->
     <link href="favicon.png" rel="icon">
@@ -25,7 +26,7 @@
     <!-- Template Main CSS File -->
     <link href="app/assets/css/style.css" rel="stylesheet">
     <link href="app/assets/css/custom.css" rel="stylesheet">
-    
+
 </head>
 <body>
     <!-- ======= Mobile nav toggle button ======= -->
@@ -35,10 +36,11 @@
     <header id="header">
         <menu></menu>
     </header><!-- End Header -->
-   
+
+    <legal></legal>
     <main id="main">
         <div class="w-100 text-center d-xl-none">
-            <img src="app/assets/img/logo-landscape.png" alt="Bilyana" style="width: 50%;max-width: 400px;"/>
+            <img src="app/assets/img/logo-landscape.png" alt="Bilyana" style="width: 65%; max-width: 400px; min-height: 75px;" />
         </div>
         <portfolio></portfolio>
         <!-- ======= About Section ======= -->
@@ -160,6 +162,16 @@
         <footer id="footer">
             <div class="container">
                 <div class="copyright">
+                    &copy; Copyright <strong><span>Bilyana Velikova</span></strong> -  {{"FOOTER.RIGHTS" | translate}}
+                    <BR />
+                    {{"FOOTER.LEGAL" | translate}}
+                </div>
+            </div>
+        </footer><!-- End  Footer -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="container">
+                <div class="copyright">
                     &copy; Copyright <strong><span>iPortfolio</span></strong>
                 </div>
                 <div class="credits">
@@ -195,6 +207,7 @@
     <script src="app/js/main.js"></script>
 
     <script src="app/components/languageSelector/languageSelector.js"></script>
+    <script src="app/components/legal/legal.js"></script>
     <script src="app/components/menu/menu.js"></script>
     <script src="app/components/portfolio/portfolio.js"></script>
 </body>
