@@ -1,0 +1,53 @@
+{
+  "TITLE": "Tutorials",
+  "LANGUAGE_SELECTOR": {
+    "BUTTON_LANG_EN": "EN",
+    "BUTTON_LANG_RO": "RO",
+    "BUTTON_LANG_BG": "BG"
+  },
+  "MENU": {
+    "HOME": "Home",
+    "PORTFOLIO": "Portfolio",
+    "ABOUT": "About",
+    "CONTACT": "Contact"
+  },
+  "CATEGORIES": {
+    "ILLUSTRATIONS": "Illustrations",
+    "BOOKS": "Books",
+    "GRAPHICDESIGN": "Graphic design"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio"
+  },
+  "landscapes-yogurt-and-roses": {
+    "title": "Landscapes, Yogurt & Roses"
+  },
+  "imbratisatoarea": {
+    "title": "The hugger"
+  },
+  "little-map": {
+    "title": "The little map"
+  },
+  "8-povestiri-de-vacanta": {
+    "title": "8 holiday stories"
+  },
+  "magic-box": {
+    "title": "Magic box"
+  },
+  "improvesti": {
+    "title": "Improvised fairy tales"
+  },
+  "rebel-girls": {
+    "title": "Rebel girls"
+  },
+  "teds-coffee": {
+    "title": "TED's Coffee"
+  },
+  "timm-thaler": {
+    "title": "Timm Thaler"
+  },
+  "GENERAL": {
+    "MORE_DETAILS": "More details",
+    "ALL": "All"
+  }
+}

@@ -1,0 +1,31 @@
+<div class="btn-group btn-group-sm">
+    <button type="button" ng-class="selectedLang == 'en'?'active':''" class="btn btn-light rounded-0" ng-click="changeLanguage('en')" translate="LANGUAGE_SELECTOR.BUTTON_LANG_EN">English</button>
+    <button type="button" ng-class="selectedLang == 'ro'?'active':''" class="btn btn-light rounded-0" ng-click="changeLanguage('ro')" translate="LANGUAGE_SELECTOR.BUTTON_LANG_RO">Romanian</button>
+    <button type="button" ng-class="selectedLang == 'bg'?'active':''" class="btn btn-light rounded-0" ng-click="changeLanguage('bg')" translate="LANGUAGE_SELECTOR.BUTTON_LANG_BG">Bulgarian</button>
+</div>
+
+<style>
+    .btn-light {
+        background-color: white;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+        .btn-light:hover,
+        .btn-light.active:hover {
+            background-color: white;
+            border-bottom-color: var(--accent-text-color);
+        }
+
+        .btn-light.active {
+            background-color: white;
+            font-weight: 700;
+            color: var(--accent-text-color);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid white;
+
+        }
+
+</style>

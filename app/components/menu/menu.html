@@ -1,0 +1,51 @@
+<div class="d-flex flex-column">
+    <div class="profile">
+        <img src="/app/assets/img/profile-img.png" alt="" class="img-fluid">
+        <h1 class="text-light"><a href="index.html">Bilyana</a></h1>
+        
+    </div>
+    <nav id="navbar" class="nav-menu navbar">
+        <ul>
+            <li ng-repeat="item in menuItems">
+                <a href="{{item.link}}" class="nav-link scrollto">
+                    <i class="{{item.classes}}"></i>
+                    <span>{{item.label | translate}}</span>
+                </a>
+            </li>
+        </ul>
+    </nav><!-- .nav-menu -->
+    <div class="text-center profile">
+        <div class="social-links my-3 text-center">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <language-selector></language-selector>
+    </div>
+</div>
+<style>
+    #header {
+        background-color: var(--bg-color);
+        box-shadow: 0px 0px 15px #e2e2e2;
+    }
+
+    .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+        color: var(--accent-color);
+    }
+
+    .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+        color: var(--accent-color);
+    }
+
+    #header .profile img {
+        border: none;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    menu {
+        padding-inline-start: 0px;
+    }
+</style>

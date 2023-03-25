@@ -1,0 +1,53 @@
+{
+  "TITLE": "Уроци",
+  "LANGUAGE_SELECTOR": {
+    "BUTTON_LANG_EN": "EN",
+    "BUTTON_LANG_RO": "RO",
+    "BUTTON_LANG_BG": "BG"
+  },
+  "MENU": {
+    "HOME": "Начало",
+    "PORTFOLIO": "Портфолио",
+    "ABOUT": "За",
+    "CONTACT": "Контакт"
+  },
+  "CATEGORIES": {
+    "ILLUSTRATIONS": "Илюстрации",
+    "BOOKS": "Книги",
+    "GRAPHICDESIGN": "Графичен дизайн"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Портфолио"
+  },
+  "landscapes-yogurt-and-roses": {
+    "title": "Landscapes, Yogurt & Roses"
+  },
+  "imbratisatoarea": {
+    "title": "The hugger"
+  },
+  "little-map": {
+    "title": "малката карта"
+  },
+  "8-povestiri-de-vacanta": {
+    "title": "8 holiday stories"
+  },
+  "magic-box": {
+    "title": "Кутия с магия"
+  },
+  "improvesti": {
+    "title": "Импровизирани приказки"
+  },
+  "rebel-girls": {
+    "title": "Непокорните"
+  },
+  "teds-coffee": {
+    "title": "TED's Coffee"
+  },
+  "timm-thaler": {
+    "title": "Тим Талер"
+  },
+  "GENERAL": {
+    "MORE_DETAILS": "Виж повече",
+    "ALL": "всички"
+  }
+}

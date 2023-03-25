@@ -1,0 +1,53 @@
+{
+  "TITLE": "Tutoriale",
+  "LANGUAGE_SELECTOR": {
+    "BUTTON_LANG_EN": "EN",
+    "BUTTON_LANG_RO": "RO",
+    "BUTTON_LANG_BG": "BG"
+  },
+  "MENU": {
+    "HOME": "Acasă",
+    "PORTFOLIO": "Portofoliu",
+    "ABOUT": "Despre",
+    "CONTACT": "Contact"
+  },
+  "CATEGORIES": {
+    "ILLUSTRATIONS": "Ilustrații",
+    "BOOKS": "Cărți",
+    "GRAPHICDESIGN": "Design grafic"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio"
+  },
+  "landscapes-yogurt-and-roses": {
+    "title": "Landscapes, Yogurt & Roses"
+  },
+  "imbratisatoarea": {
+    "title": "Îmbrățișatoarea"
+  },
+  "little-map": {
+    "title": "Mica hartă"
+  },
+  "8-povestiri-de-vacanta": {
+    "title": "8 povestiri de vacanță"
+  },
+  "magic-box": {
+    "title": "Cutie cu magie"
+  },
+  "improvesti": {
+    "title": "Improvești"
+  },
+  "rebel-girls": {
+    "title": "Nesupusele"
+  },
+  "teds-coffee": {
+    "title": "TED's Coffee"
+  },
+  "timm-thaler": {
+    "title": "Timm Thaler"
+  },
+  "GENERAL": {
+    "MORE_DETAILS": "Mai multe detalii",
+    "ALL": "Toate"
+  }
+}

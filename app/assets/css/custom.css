@@ -1,0 +1,81 @@
+﻿:root {
+    --text-color: #272829;
+    --bg-color: white;
+    --accent-color: #ec2224;
+    --accent-background-color: #ff88c9;
+    --accent-background-color-darker: #d465a2;
+    --accent-text-color: #ec2224;
+    --accent-text-color-darker: #cd1618;
+}
+
+#footer {
+    position: static;
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.portfolio #portfolio-flters {
+    background: white;
+}
+    .portfolio #portfolio-flters li {
+        margin: 5px;
+        border-radius: 20px;
+        background: white;
+    }
+
+        .portfolio #portfolio-flters li:hover {
+            color: white;
+            background-color: var(--accent-background-color);
+            opacity:0.7;
+        }
+        .portfolio #portfolio-flters li.filter-active {
+            color: white;
+            background-color: var(--accent-background-color);
+        }
+.portfolio .portfolio-wrap .portfolio-links {
+    bottom: -200px;
+    transition: none;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: var(--text-color);
+    font-weight: 900;
+}
+
+    .section-title h2 {
+        color: var(--accent-text-color);
+    }
+
+.portfolio .portfolio-wrap::before {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-links {
+    top: 0;
+    bottom: 0;
+    color: var(--text-color);
+    flex-direction: column;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+    background-color: transparent;
+}
+
+.mobile-nav-toggle,
+.back-to-top {
+    background-color: var(--accent-text-color);
+}
+
+    .mobile-nav-toggle:hover,
+    .back-to-top:hover {
+        background-color: var(--accent-text-color);
+    }
+
