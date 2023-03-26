@@ -168,10 +168,7 @@
       mirror: false
     })
   });
-
-  ///**
-  // * Initiate Pure Counter 
-  // */
-  //new PureCounter();
+  
+  document.addEventListener('contextmenu', event => event.preventDefault());
 
 })()
