@@ -7,9 +7,9 @@ angular.module('app')
 
             var link = window.location.href.toString();
             var initpath = "?";
-            var path = link.substring(link.indexOf(initpath) + 1);
-            debugger;
-            if (path != initpath) {
+
+            if(link.indexOf(initpath) > 0) {
+                var path = link.substring(link.indexOf(initpath));
 
                 for (var i = 0; i < projectsFactory.length; i++) {
                     if (projectsFactory[i].slug == path) {
@@ -17,7 +17,6 @@ angular.module('app')
                         $scope.hasError = false;
                         break;
                     }
-
                 }
             }
 
