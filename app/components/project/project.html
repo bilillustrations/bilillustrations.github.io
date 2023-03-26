@@ -20,13 +20,13 @@
                     <h2 class="m-0 p-0" ng-if="project.pageTitle != null">
                         {{project.pageTitle | translate}}
                     </h2>
-                    <p>
+                    <p class="mt-5">
                         {{project.description | translate}}
                     </p>
                 </div>
-                <div class="row" data-aos="fade-up" data-aos-delay="100" ng-repeat="line in project.lines">
+                <div class="row mb-sm-2" data-aos="fade-up" data-aos-delay="100" ng-repeat="line in project.lines">
 
-                    <div ng-class="getClass(line)" class="p-2" ng-repeat="image in line">
+                    <div ng-class="getClass(line)" class="p-4 p-sm-2" ng-repeat="image in line">
                         <img ng-src="app/assets/img/little-map/{{image}}" class="img-fluid w-100" alt="">
                     </div>
 
