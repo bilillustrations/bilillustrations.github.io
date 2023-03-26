@@ -1,5 +1,5 @@
 <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio ">
+<section id="portfolio" class="portfolio">
     <div class="container">
         <div class="section-title text-center mb-5 pb-0">
             <h2 class="m-0 p-0">{{"PORTFOLIO.TITLE" | translate}}</h2>
@@ -15,7 +15,6 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100" ng-if="projects != null">
-
             <div class="col-lg-6 col-md-6 portfolio-item filter-{{project.categoryId}}" ng-repeat="project in projects | orderBy:'order'">
                 <div class="portfolio-wrap">
                     <img src="/app/assets/img/portfolio/{{project.cover}}" class="img-fluid w-100" alt="">
@@ -26,7 +25,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
     </div>
