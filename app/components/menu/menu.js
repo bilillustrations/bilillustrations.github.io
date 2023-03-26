@@ -11,17 +11,17 @@ angular.module('app')
                 {
                     link: "https://bilillustrations.github.io/#portfolio",
                     label: "MENU.PORTFOLIO",
-                    classes: "bx bx-book-content"
+                    classes: "bi bi-journals"
                 },
                 {
                     link: "https://bilillustrations.github.io/#about",
                     label: "MENU.ABOUT",
-                    classes: "bx bx-user"
+                    classes: "bi bi-file-earmark-person"
                 },
                 {
                     link: "https://bilillustrations.github.io/#contact",
                     label: "MENU.CONTACT",
-                    classes: "bx bx-envelope"
+                    classes: "bi bi-person-lines-fill"
                 }
             ];
         }]
