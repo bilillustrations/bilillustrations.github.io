@@ -15,21 +15,21 @@
     color: var(--text-color);
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filter-category {
     background: white;
 }
-    .portfolio #portfolio-flters li {
+    .portfolio #portfolio-filter-category li {
         margin: 5px;
         border-radius: 20px;
         background: white;
     }
 
-        .portfolio #portfolio-flters li:hover {
+        .portfolio #portfolio-filter-category li:hover {
             color: white;
             background-color: var(--accent-background-color);
             opacity:0.7;
         }
-        .portfolio #portfolio-flters li.filter-active {
+        .portfolio #portfolio-filter-category li.filter-active {
             color: white;
             background-color: var(--accent-background-color);
         }

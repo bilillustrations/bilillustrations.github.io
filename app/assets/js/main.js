@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -137,9 +130,9 @@
                     itemSelector: '.portfolio-item'
                 });
 
-                let portfolioFilters = select('#portfolio-flters li', true);
+                let portfolioFilters = select('#portfolio-filter-category li', true);
 
-                on('click', '#portfolio-flters li', function (e) {
+                on('click', '#portfolio-filter-category li', function (e) {
                     e.preventDefault();
                     portfolioFilters.forEach(function (el) {
                         el.classList.remove('filter-active');
@@ -168,7 +161,7 @@
       mirror: false
     })
   });
-  
+
   document.addEventListener('contextmenu', event => event.preventDefault());
 
 })()

@@ -9,7 +9,7 @@ angular.module('app')
                 //     classes: "bx bx-home"
                 // },
                 {
-                    link: "https://bilillustrations.github.io/",
+                    link: "https://bilillustrations.github.io/#portfolio",
                     label: "MENU.PORTFOLIO",
                     classes: "bx bx-book-content"
                 },
