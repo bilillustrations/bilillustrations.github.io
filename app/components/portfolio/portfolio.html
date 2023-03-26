@@ -18,7 +18,7 @@
 
             <div class="col-lg-6 col-md-6 portfolio-item filter-{{project.categoryId}}" ng-repeat="project in projects | orderBy:'order'">
                 <div class="portfolio-wrap">
-                    <img src="app/assets/img/portfolio/{{project.cover}}" class="img-fluid w-100" alt="">
+                    <img src="/app/assets/img/portfolio/{{project.cover}}" class="img-fluid w-100" alt="">
                     <div class="portfolio-links">
                         <a href="/projects/{{project.slug}}.html">
                             {{project.title | translate }}
