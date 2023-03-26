@@ -1,0 +1,40 @@
+<section class="breadcrumbs section-bg">
+    <div class="container">
+        <div class="d-flex justify-content-start align-items-center">
+            <ol>
+                <li><a href="https://bilillustrations.github.io/">{{'MENU.PORTFOLIO' | translate}}</a></li>
+                <li ng-if="!hasError">{{project.title | translate}}</li>
+            </ol>
+        </div>
+    </div>
+</section><!-- End Breadcrumbs -->
+<section>
+    <div class="inner-page">
+        <error ng-if="hasError"></error>
+        <div class="row" ng-show="!hasError">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="section-title text-center mb-5 pb-0">
+                    <h2 class="m-0 p-0" ng-if="project.pageTitle == null">
+                        {{project.title | translate}}
+                    </h2>
+                    <h2 class="m-0 p-0" ng-if="project.pageTitle != null">
+                        {{project.pageTitle | translate}}
+                    </h2>
+                    <p>
+                        {{project.description | translate}}
+                    </p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="100" ng-repeat="line in project.lines">
+
+                    <div ng-class="getClass(line)" class="p-4" ng-repeat="image in line">
+                        <img ng-src="'app/assets/img/little-map/'{{image}}" class="img-fluid w-100" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>

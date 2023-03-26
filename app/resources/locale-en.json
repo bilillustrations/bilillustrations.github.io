@@ -26,7 +26,9 @@
     "title": "The hugger"
   },
   "little-map": {
-    "title": "The little map"
+    "title": "The little map",
+    "page-title": "The little map of Bucharest",
+    "description": "The little map of Bucharest is something really cool"
   },
   "8-povestiri-de-vacanta": {
     "title": "8 holiday stories"
@@ -54,5 +56,9 @@
     "OK": "Do not show it again",
     "RIGHTS": "All rights reserved",
     "LEGAL": "Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted."
+  },
+  "ERROR": {
+    "TITLE": "Oups!",
+    "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
   }
 }
