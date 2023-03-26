@@ -6,9 +6,9 @@ angular.module('app')
             $scope.hasError = true;
 
             var link = window.location.href.toString();
-            var initpath = "project.html?";
+            var initpath = "?";
             var path = link.substring(link.indexOf(initpath) + 1);
-
+            debugger;
             if (path != initpath) {
 
                 for (var i = 0; i < projectsFactory.length; i++) {
