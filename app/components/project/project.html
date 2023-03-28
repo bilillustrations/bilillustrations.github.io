@@ -30,7 +30,7 @@
                         ng-repeat="image in project.images" 
                         ng-class="getClassName(image.size)">
 
-                        <img data-aos="fade-up" data-aos-delay="100" ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="img-responsive w-100" alt=""/>
+                        <img data-aos="fade-up" data-aos-delay="100" ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="img-responsive w-100" alt="{{project.title|translate}}"/>
                         
                     </div>
                 </div>
