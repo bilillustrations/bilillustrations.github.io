@@ -79,6 +79,14 @@
         background-color: var(--accent-text-color);
     }
 
+.fit-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
 /*---------Scroll bar---------*/
 /* width */
 ::-webkit-scrollbar {
