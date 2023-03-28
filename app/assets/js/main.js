@@ -123,29 +123,31 @@
   //  * Porfolio isotope and filter
   //  */
 
-  on('click', '#portfolio-filter-category li', function (e) {
-    e.preventDefault();
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-        let portfolioIsotope = new Isotope(portfolioContainer, {
-            itemSelector: '.portfolio-item'
-        });
+  // on('click', '#portfolio-filter-category li', function (e) {
+  //   e.preventDefault();
+  //   debugger;
+  //   let portfolioContainer = select('.portfolio-container');
+  //   if (portfolioContainer) {
+  //       let portfolioIsotope = new Isotope(portfolioContainer, {
+  //           itemSelector: '.portfolio-item'
+  //       });
 
-        let portfolioFilters = select('#portfolio-filter-category li', true);
+  //       let portfolioFilters = select('#portfolio-filter-category li', true);
         
-        portfolioFilters.forEach(function (el) {
-          el.classList.remove('filter-active');
-      });
-      this.classList.add('filter-active');
-  
-      portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-      });
-      portfolioIsotope.on('arrangeComplete', function () {
-          AOS.refresh()
-      });
-    }
-  }, true);
+  //       portfolioFilters.forEach(function (el) {
+  //         el.classList.remove('filter-active');
+  //       });
+
+  //       this.classList.add('filter-active');
+    
+  //       portfolioIsotope.arrange({
+  //           filter: this.getAttribute('data-filter')
+  //       });
+  //       portfolioIsotope.on('arrangeComplete', function () {
+  //           AOS.refresh()
+  //       });
+  //   }
+  // }, true);
 
   /**
    * Animation on scroll
