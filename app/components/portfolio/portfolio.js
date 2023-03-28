@@ -5,18 +5,18 @@ angular.module('app')
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;        
 
-            $scope.filter = function(categoryId) {
-                let portfolioContainer = select('.portfolio-container');
+            $scope.filter = function() {
+                let portfolioContainer = document.querySelector('.portfolio-container');
                 if (portfolioContainer) {
                     let portfolioIsotope = new Isotope(portfolioContainer, {
                         itemSelector: '.portfolio-item'
                     });
 
-                    let portfolioFilters = select('#portfolio-filter-category li', true);
+                    let portfolioFilters = [...document.querySelectorAll('#portfolio-filter-category li')];
                     portfolioFilters.forEach(function (el) {
                         el.classList.remove('filter-active');
                     });
-                    
+
                     this.classList.add('filter-active');
 
                     portfolioIsotope.arrange({
