@@ -11,6 +11,8 @@ angular.module('app')
             if(link.indexOf(initpath) > 0) {
                 var path = link.substring(link.indexOf(initpath) + 1);
 
+                debugger;
+
                 for (var i = 0; i < projectsFactory.length; i++) {
                     if (projectsFactory[i].slug == path) {
                         $scope.project = projectsFactory[i];
