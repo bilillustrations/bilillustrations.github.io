@@ -24,17 +24,12 @@
                         {{project.description | translate}}
                     </p>
                 </div>
-                <div class="row mb-sm-2" data-aos="fade-up" data-aos-delay="100" ng-repeat="line in project.lines">
-
-                    <div ng-class="getClass(line)" class="p-4 p-sm-2" ng-repeat="image in line">
-                        <img ng-src="app/assets/img/little-map/{{image}}" class="img-fluid w-100" alt="">
+                <div class="row mb-sm-2" data-aos="fade-up" data-aos-delay="100">
+                    <div ng-class="col-sm-{{image.size}}" class="p-4 p-sm-2" ng-repeat="image in images">
+                        <img ng-src="app/assets/img/little-map/{{image.path}}" class="img-fluid w-100" alt="">
                     </div>
-
                 </div>
-
             </div>
         </div>
-
-
     </div>
 </section>

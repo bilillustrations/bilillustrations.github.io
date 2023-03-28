@@ -19,9 +19,5 @@ angular.module('app')
                     }
                 }
             }
-
-            $scope.getClass = function (line) {
-                return "col-sm-" + 12 / line.length;
-            }
         }]
     });
