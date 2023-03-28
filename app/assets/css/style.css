@@ -1021,9 +1021,9 @@ section {
 }
 
 @media (max-width: 768px) {
-  .breadcrumbs .d-flex {
+  /* .breadcrumbs .d-flex {
     display: block !important;
-  }
+  } */
 
   .breadcrumbs ol {
     display: block;
