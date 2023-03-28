@@ -4,13 +4,13 @@ angular.module('app')
             debugger;
             window.addEventListener('load', () => {
                 setTimeout(() => {
-                    let portfolioContainer = select('.portfolio-container');
+                    let portfolioContainer = document.querySelector('.portfolio-container');
                     if (portfolioContainer) {
                         let portfolioIsotope = new Isotope(portfolioContainer, {
                             itemSelector: '.portfolio-item'
                         });
         
-                        let portfolioFilters = select('#portfolio-filter-category li', true);
+                        let portfolioFilters = [...document.querySelectorAll("#portfolio-filter-category li")];
         
                         on('click', '#portfolio-filter-category li', function (e) {
                             e.preventDefault();
