@@ -5,29 +5,29 @@ angular.module('app')
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;        
 
-            // $scope.filter = function(categoryId) {
-            //     let portfolioContainer = document.querySelector('.portfolio-container');
-            //     if (portfolioContainer) {
-            //         let portfolioIsotope = new Isotope(portfolioContainer, {
-            //             itemSelector: '.portfolio-item'
-            //         });
+            $scope.filter = function(categoryId) {
+                let portfolioContainer = document.querySelector('.portfolio-container');
+                if (portfolioContainer) {
+                    let portfolioIsotope = new Isotope(portfolioContainer, {
+                        itemSelector: '.portfolio-item'
+                    });
 
-            //         let portfolioFilters = [...document.querySelectorAll('#portfolio-filter-category li')];
-            //         portfolioFilters.forEach(function (el) {
-            //             el.classList.remove('filter-active');
-            //         });
+                    let portfolioFilters = [...document.querySelectorAll('#portfolio-filter-category li')];
+                    portfolioFilters.forEach(function (el) {
+                        el.classList.remove('filter-active');
+                    });
 
-            //         var e = document.getElementById('category-'+categoryId);
-            //         e.classList.add('filter-active');
+                    var e = document.getElementById('category-'+categoryId);
+                    e.classList.add('filter-active');
 
-            //         portfolioIsotope.arrange({
-            //             filter: e.getAttribute('data-filter')
-            //         });
-            //         portfolioIsotope.on('arrangeComplete', function () {
-            //             AOS.refresh()
-            //         });
-            //     }
-            // }
+                    portfolioIsotope.arrange({
+                        filter: e.getAttribute('data-filter')
+                    });
+                    portfolioIsotope.on('arrangeComplete', function () {
+                        AOS.refresh()
+                    });
+                }
+            }
         }]
     })
     .factory("categoriesFactory", function () {
