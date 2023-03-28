@@ -17,8 +17,8 @@ angular.module('app')
                         el.classList.remove('filter-active');
                     });
 
-                    
-                    document.getElementsById('categoryId-'+p)[0].classList.add('filter-active');
+                    var e = document.getElementsById('categoryId-'+categoryId)[0];
+                    e.classList.add('filter-active');
 
                     portfolioIsotope.arrange({
                         filter: e.getAttribute('data-filter')
