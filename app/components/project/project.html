@@ -28,7 +28,7 @@
                     <div 
                         class="p-4 p-sm-2"
                         ng-repeat="image in project.images" 
-                        ng-class="col-sm-{{image.size}}">
+                        ng-class="getClassName(image.size)">
 
                         <img data-aos="fade-up" data-aos-delay="100" ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="img-fluid w-100" alt="{{project.title|translate}}"/>
                         

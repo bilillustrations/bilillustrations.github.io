@@ -21,5 +21,9 @@ angular.module('app')
                     }
                 }
             }
+
+            $scope.getClassName(p) {
+                return "col-sm-"+p;
+            }
         }]
     });
