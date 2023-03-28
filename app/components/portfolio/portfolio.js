@@ -4,6 +4,29 @@ angular.module('app')
         controller: ['$scope', 'projectsFactory', 'categoriesFactory', function ($scope, projectsFactory, categoriesFactory) {
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;        
+
+            $scope.filter = function(categoryId) {
+                let portfolioContainer = select('.portfolio-container');
+                if (portfolioContainer) {
+                    let portfolioIsotope = new Isotope(portfolioContainer, {
+                        itemSelector: '.portfolio-item'
+                    });
+
+                    let portfolioFilters = select('#portfolio-filter-category li', true);
+                    portfolioFilters.forEach(function (el) {
+                        el.classList.remove('filter-active');
+                    });
+                    
+                    this.classList.add('filter-active');
+
+                    portfolioIsotope.arrange({
+                        filter: this.getAttribute('data-filter')
+                    });
+                    portfolioIsotope.on('arrangeComplete', function () {
+                        AOS.refresh()
+                    });
+                }
+            }
         }]
     })
     .factory("categoriesFactory", function () {
