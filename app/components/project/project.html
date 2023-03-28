@@ -20,9 +20,12 @@
     <div class="bubble"></div>
     <div class="bubble"></div>
     <div class="bubble"></div>
-  <div style="color:white">
-    Test Text
-  </div>
+    <div class="d-flex justify-content-start align-items-center " style="height: 100%;padding-left: 1rem;padding-right: 1rem;">
+        <ol>
+            <li><a href="https://bilillustrations.github.io/">{{'MENU.PORTFOLIO' | translate}}</a></li>
+            <li ng-if="!hasError">{{project.title | translate}}</li>
+        </ol>
+    </div>
 </div>
 </section>
 <section>
