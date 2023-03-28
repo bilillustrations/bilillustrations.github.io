@@ -1,5 +1,5 @@
 angular.module('app')
-    .controller("appController", function() {
+    .controller("appController",["$scope", function($scope) {
         $scope.init = function () {
             debugger;
             window.addEventListener('load', () => {
@@ -30,7 +30,7 @@ angular.module('app')
                 }, 1500);
             });
         }
-    })
+    }])
     .component('menu', {
         templateUrl: "app/components/menu/menu.html",
         controller: ['$scope', '$translate', function ($scope, $translate) {
