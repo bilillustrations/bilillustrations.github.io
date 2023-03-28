@@ -24,35 +24,5 @@ angular.module('app')
                     classes: "bi bi-person-lines-fill"
                 }
             ];
-
-            $scope.init = function () {
-                window.addEventListener('load', () => {
-                    setTimeout(() => {
-                        let portfolioContainer = select('.portfolio-container');
-                        if (portfolioContainer) {
-                            let portfolioIsotope = new Isotope(portfolioContainer, {
-                                itemSelector: '.portfolio-item'
-                            });
-            
-                            let portfolioFilters = select('#portfolio-filter-category li', true);
-            
-                            on('click', '#portfolio-filter-category li', function (e) {
-                                e.preventDefault();
-                                portfolioFilters.forEach(function (el) {
-                                    el.classList.remove('filter-active');
-                                });
-                                this.classList.add('filter-active');
-            
-                                portfolioIsotope.arrange({
-                                    filter: this.getAttribute('data-filter')
-                                });
-                                portfolioIsotope.on('arrangeComplete', function () {
-                                    AOS.refresh()
-                                });
-                            }, true);
-                        }
-                    }, 1500);
-                });
-            }
         }]
     });
