@@ -153,7 +153,7 @@ function init() {
     });
   }
 
-setTimeout(init(), 0);
+setTimeout(function() { init() }, 0);
 
   /**
    * Animation on scroll
