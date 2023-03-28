@@ -122,10 +122,8 @@
   // /**
   //  * Porfolio isotope and filter
   //  */
-
-function init() {
     window.addEventListener('load', () => {
-       // setTimeout(() => {
+        setTimeout(() => {
             let portfolioContainer = select('.portfolio-container');
             if (portfolioContainer) {
                 let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -149,11 +147,8 @@ function init() {
                     });
                 }, true);
             }
-      //  }, 3000);
+     }, 3000);
     });
-  }
-
-setTimeout(function() { init() }, 3000);
 
   /**
    * Animation on scroll
