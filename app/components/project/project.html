@@ -46,11 +46,12 @@
                 </div>
                 <div class="row mb-sm-2" >
                     <div 
+                        data-aos="fade-up" data-aos-delay="100"
                         class="py-4 "
                         ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image.size)">
 
-                        <img data-aos="fade-up" data-aos-delay="100" ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="fit-image" alt="{{project.title|translate}}"/>
+                        <img  ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="fit-image" alt="{{project.title|translate}}"/>
                         
                     </div>
                 </div>
