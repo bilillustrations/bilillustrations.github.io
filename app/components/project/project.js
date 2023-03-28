@@ -22,7 +22,7 @@ angular.module('app')
                 }
             }
 
-            $scope.getClassName(p) {
+            $scope.getClassName = function(p) {
                 return "col-sm-"+p;
             }
         }]

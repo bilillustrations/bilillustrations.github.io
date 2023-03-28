@@ -8,4 +8,7 @@ var app = angular.module('app', ['pascalprecht.translate'])
             });
             $translateProvider.preferredLanguage("en");
             $translateProvider.fallbackLanguage("en");
+            $translateProvider.useLocalStorage()
+            $translateProvider.useSanitizeValueStrategy('escape')
+            $translateProvider.useMissingTranslationHandlerLog();
         }])
