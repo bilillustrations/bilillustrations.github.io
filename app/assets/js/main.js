@@ -162,6 +162,9 @@
     })
   });
 
-  document.addEventListener('contextmenu', event => event.preventDefault());
+  /**
+   * block right click
+   */
+  // document.addEventListener('contextmenu', event => event.preventDefault());
 
 })()
