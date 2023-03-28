@@ -110,6 +110,11 @@
 /*---------End scroll bar---------*/
 
 /*---------Bubbles---------*/
+.breadcrumbs {
+    padding: 0;
+    height: 50px;
+    background: #f9f9f9;
+}
 
   .bubbles{
     position: relative;
