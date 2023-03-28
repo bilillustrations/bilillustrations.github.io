@@ -3,7 +3,7 @@ angular.module('app')
         $scope.init = function () {
             debugger;
             window.addEventListener('load', () => {
-                setTimeout(() => {
+                
                     let portfolioContainer = document.querySelector('.portfolio-container');
                     if (portfolioContainer) {
                         let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -12,22 +12,39 @@ angular.module('app')
         
                         let portfolioFilters = [...document.querySelectorAll("#portfolio-filter-category li")];
         
-                        on('click', '#portfolio-filter-category li', function (e) {
-                            e.preventDefault();
-                            portfolioFilters.forEach(function (el) {
-                                el.classList.remove('filter-active');
+                        var categories = document.querySelectorAll('#portfolio-filter-category li');
+                        for(var categ in categories) {
+                            categ.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                portfolioFilters.forEach(function (el) {
+                                    el.classList.remove('filter-active');
+                                });
+                                this.classList.add('filter-active');
+            
+                                portfolioIsotope.arrange({
+                                    filter: this.getAttribute('data-filter')
+                                });
+                                portfolioIsotope.on('arrangeComplete', function () {
+                                    AOS.refresh()
+                                });
                             });
-                            this.classList.add('filter-active');
+                        }
+                        
+                        // on('click', '#portfolio-filter-category li', function (e) {
+                        //     e.preventDefault();
+                        //     portfolioFilters.forEach(function (el) {
+                        //         el.classList.remove('filter-active');
+                        //     });
+                        //     this.classList.add('filter-active');
         
-                            portfolioIsotope.arrange({
-                                filter: this.getAttribute('data-filter')
-                            });
-                            portfolioIsotope.on('arrangeComplete', function () {
-                                AOS.refresh()
-                            });
-                        }, true);
+                        //     portfolioIsotope.arrange({
+                        //         filter: this.getAttribute('data-filter')
+                        //     });
+                        //     portfolioIsotope.on('arrangeComplete', function () {
+                        //         AOS.refresh()
+                        //     });
+                        // }, true);
                     }
-                }, 1500);
             });
         }
     }])
