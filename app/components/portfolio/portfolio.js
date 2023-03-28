@@ -5,7 +5,7 @@ angular.module('app')
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;        
 
-            $scope.filter = function() {
+            $scope.filter = function(e) {
                 let portfolioContainer = document.querySelector('.portfolio-container');
                 if (portfolioContainer) {
                     let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -17,10 +17,11 @@ angular.module('app')
                         el.classList.remove('filter-active');
                     });
 
-                    this.classList.add('filter-active');
+                    
+                    e.classList.add('filter-active');
 
                     portfolioIsotope.arrange({
-                        filter: this.getAttribute('data-filter')
+                        filter: e.getAttribute('data-filter')
                     });
                     portfolioIsotope.on('arrangeComplete', function () {
                         AOS.refresh()
