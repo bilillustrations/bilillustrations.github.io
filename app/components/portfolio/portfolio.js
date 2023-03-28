@@ -49,8 +49,8 @@ angular.module('app')
                     { path: "7.png", size: "12" },
                     { path: "8.png", size: "4" },
                     { path: "9.png", size: "8" },
-                    { path: "10.png", size: "5" },
-                    { path: "11.png", size: "7" },
+                    { path: "10.png", size: "6" },
+                    { path: "11.png", size: "6" },
                     { path: "12.png", size: "8" },
                     { path: "13.png", size: "4" }    
                 ]
