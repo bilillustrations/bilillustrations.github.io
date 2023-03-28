@@ -13,11 +13,10 @@
             </div>
         </div>
         
-        <div class="row portfolio-container"   ng-if="projects != null">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="0"  ng-if="projects != null">
 
             <div class="col-lg-6 col-md-6 portfolio-item filter-{{project.categoryId}}" 
                 ng-repeat="project in projects | orderBy:'order' track by $index" 
-                data-aos="fade-up" data-aos-delay="{{500 * (1 + $index/2)}}"
                 >
                 <div class="portfolio-wrap">
                     <img
