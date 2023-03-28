@@ -38,7 +38,7 @@ angular.module('app')
             { id: 5, categoryId: 3, slug: 'magic-box', title: 'magic-box.title', description: 'magic-box.description', cover: 'cover-magic box.png', order: 5 },
             { id: 6, categoryId: 2, slug: 'improvesti', title: 'improvesti.title', description: 'improvesti.description', cover: 'improvesti-cover.png', order: 6 },
             { id: 7, categoryId: 2, slug: 'rebel-girls', title: 'rebel-girls.title', description: 'rebel-girls.description', cover: 'cover-inktober.png', order: 7 },
-            { id: 8, categoryId: 3, slug: 'teds-coffee', title: 'teds-coffee.title', description: 'teds-coffee.description', cover: 'cover-teds-coffee3.png', order: 8,
+            { id: 8, categoryId: 3, slug: 'teds-coffee', title: 'teds-coffee.title', description: 'teds-coffee.description', cover: 'cover-teds-coffee3.png', order: 0,
                 images: [
                     { path: "1.png", size: "12" },
                     { path: "2.png", size: "8" },
