@@ -15,7 +15,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100" ng-if="projects != null">
 
-            <div class="col-lg-6 col-md-6 portfolio-item filter-{{project.categoryId}}" ng-repeat="project in projects track by $index | orderBy:'order'">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-{{project.categoryId}}" ng-repeat="project in projects | orderBy:'order' track by $index">
                 <div class="portfolio-wrap">
                     <img
                          ng-src="app/assets/img/portfolio/{{project.cover}}"
