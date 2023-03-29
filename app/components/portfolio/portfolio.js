@@ -66,7 +66,11 @@ angular.module('app')
             { id: 5, categoryId: 3, slug: 'magic-box', title: 'magic-box.title', description: 'magic-box.description', cover: 'cover-magic box.png', order: 5 },
             { id: 6, categoryId: 2, slug: 'improvesti', title: 'improvesti.title', description: 'improvesti.description', cover: 'improvesti-cover.png', order: 6 },
             { id: 7, categoryId: 2, slug: 'rebel-girls', title: 'rebel-girls.title', description: 'rebel-girls.description', cover: 'cover-inktober.png', order: 7 },
-            { id: 8, categoryId: 3, slug: 'teds-coffee', title: 'teds-coffee.title', description: 'teds-coffee.description', cover: 'cover-teds-coffee3.png', order: 0,
+            { id: 8, categoryId: 3, 
+                slug: 'teds-coffee', title: 'teds-coffee.title',
+                 description: 'teds-coffee.description', 
+                 cover: 'cover-teds-coffee3.png', 
+                 order: 0,
                 images: [
                     { path: "1.png", size: "12" },
                     { path: "2.png", size: "8" },
@@ -83,6 +87,28 @@ angular.module('app')
                     { path: "13.png", size: "4" }    
                 ]
             },
+            { 
+                id: 12, categoryId: 3, slug: 'teds-test', 
+                title: 'teds-coffee.title', 
+                description: 'teds-coffee.description', 
+                cover: 'teds-test.png', 
+                order: 0,
+                images: [
+                { path: "1.png", size: "12" },
+                { path: "2.png", size: "8" },
+                { path: "3.png", size: "4" },
+                { path: "4.png", size: "4" },
+                { path: "5.png", size: "8" },
+                { path: "6.png", size: "12" },
+                { path: "7.png", size: "12" },
+                { path: "8.png", size: "4" },
+                { path: "9.png", size: "8" },
+                { path: "10.png", size: "6" },
+                { path: "11.png", size: "6" },
+                { path: "12.png", size: "8" },
+                { path: "13.png", size: "4" }    
+            ]
+        },
             { id: 9, categoryId: 2, slug: 'timm-thaler', title: 'timm-thaler.title', description: 'timm-thaler.description', cover: 'timm-thaler-cover.png', order: 9 },
         ]
     });
