@@ -122,6 +122,7 @@ h6 {
 @media (max-width: 1199px) {
   #header {
     left: -300px;
+    box-shadow: none;
   }
 
   #main {
@@ -210,6 +211,7 @@ h6 {
 
 .mobile-nav-active #header {
   left: 0;
+  box-shadow: 0px 0px 15px #e2e2e2;
 }
 
 /*--------------------------------------------------------------
