@@ -19,6 +19,15 @@
   "PORTFOLIO": {
     "TITLE": "Портфолио"
   },
+  "GENERAL": {
+    "MORE_DETAILS": "Виж повече",
+    "ALL": "всички"
+  },
+  "FOOTER": {
+    "OK": "Не го показвай отново",
+    "RIGHTS": "Всички права запазени",
+    "LEGAL": "Всяко възпроизвеждане, производни произведения, разпространение или изтегляне на произведението, показано на този уебсайт, без разрешението на собственика е ограничено."
+  },
   "landscapes-yogurt-and-roses": {
     "title": "Landscapes, Yogurt & Roses"
   },
@@ -27,9 +36,7 @@
   },
   "little-map": {
     "title": "малката карта",
-    "page-title": "малката карта",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-  
   },
   "8-povestiri-de-vacanta": {
     "title": "8 holiday stories"
@@ -48,14 +55,5 @@
   },
   "timm-thaler": {
     "title": "Тим Талер"
-  },
-  "GENERAL": {
-    "MORE_DETAILS": "Виж повече",
-    "ALL": "всички"
-  },
-  "FOOTER": {
-    "OK": "Не го показвай отново",
-    "RIGHTS": "Всички права запазени",
-    "LEGAL": "Всяко възпроизвеждане, производни произведения, разпространение или изтегляне на произведението, показано на този уебсайт, без разрешението на собственика е ограничено."
   }
 }

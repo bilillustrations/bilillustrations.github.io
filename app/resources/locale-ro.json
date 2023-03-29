@@ -19,6 +19,15 @@
   "PORTFOLIO": {
     "TITLE": "Portofolio"
   },
+  "GENERAL": {
+    "MORE_DETAILS": "Mai multe detalii",
+    "ALL": "Toate"
+  },
+  "FOOTER": {
+    "OK": "Nu mai afișa în viitor",
+    "RIGHTS": "Toate drepturile rezervate",
+    "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
+  },
   "landscapes-yogurt-and-roses": {
     "title": "Landscapes, Yogurt & Roses"
   },
@@ -26,8 +35,7 @@
     "title": "Îmbrățișătoarea"
   },
   "little-map": {
-    "title": "Mica hartă",
-    "page-title": "Mica hartă a Bucureștiului",
+    "title": "Mica hartă a Bucureștiului",
     "description": "Bucureștiul e super fain. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
   },
   "8-povestiri-de-vacanta": {
@@ -47,14 +55,5 @@
   },
   "timm-thaler": {
     "title": "Timm Thaler"
-  },
-  "GENERAL": {
-    "MORE_DETAILS": "Mai multe detalii",
-    "ALL": "Toate"
-  },
-  "FOOTER": {
-    "OK": "Nu mai afișa în viitor",
-    "RIGHTS": "Toate drepturile rezervate",
-    "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
   }
 }

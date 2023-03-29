@@ -34,7 +34,6 @@ angular.module('app')
             {
                 id: 3, categoryId: 3, slug: 'little-map',
                 title: 'little-map.title',
-                pageTitle: 'little-map.page-title',
                 description: 'little-map.description', cover: 'cover-photo-mica-harta.png', order: 0,
                 images: [12, 6, 6, 6, 6, 6, 6, 6, 6]
             },

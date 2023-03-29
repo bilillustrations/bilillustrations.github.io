@@ -19,6 +19,19 @@
   "PORTFOLIO": {
     "TITLE": "Portfolio"
   },
+  "GENERAL": {
+    "MORE_DETAILS": "More details",
+    "ALL": "All"
+  },
+  "FOOTER": {
+    "OK": "Do not show it again",
+    "RIGHTS": "All rights reserved",
+    "LEGAL": "Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted."
+  },
+  "ERROR": {
+    "TITLE": "Oups!",
+    "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+  },
   "landscapes-yogurt-and-roses": {
     "title": "Landscapes, Yogurt & Roses"
   },
@@ -26,8 +39,7 @@
     "title": "The hugger"
   },
   "little-map": {
-    "title": "The little map",
-    "page-title": "The little map of Bucharest",
+    "title": "The little map of Bucharest",
     "description": "The little map of Bucharest is something really cool. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
   },
   "8-povestiri-de-vacanta": {
@@ -47,18 +59,5 @@
   },
   "timm-thaler": {
     "title": "Timm Thaler"
-  },
-  "GENERAL": {
-    "MORE_DETAILS": "More details",
-    "ALL": "All"
-  },
-  "FOOTER": {
-    "OK": "Do not show it again",
-    "RIGHTS": "All rights reserved",
-    "LEGAL": "Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted."
-  },
-  "ERROR": {
-    "TITLE": "Oups!",
-    "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
   }
 }
