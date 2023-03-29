@@ -753,3 +753,13 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #fb9c76;
+}
+
+::selection {
+  color: white;
+  background: #fb9c76;
+}
