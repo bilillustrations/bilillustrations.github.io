@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Chelsea Market', 'Roboto', none;
+  font-family: 'Jast', 'Roboto', none;
 }
 
 /*--------------------------------------------------------------
@@ -85,7 +85,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: 'Chelsea Market', "Roboto", sans-serif;
+  font-family: 'Jast', "Roboto", sans-serif;
 }
 
 #header .profile h1 a,
