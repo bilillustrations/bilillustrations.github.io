@@ -21,21 +21,7 @@ angular.module('app')
                 description: 'landscapes-yogurt-and-roses.description', 
                 cover: 'cover-ghid.png', 
                 order: 1,
-                images: [
-                    { path: "1.png", size: "12" },
-                    { path: "2.png", size: "8" },
-                    { path: "3.png", size: "4" },
-                    { path: "4.png", size: "4" },
-                    { path: "5.png", size: "8" },
-                    { path: "6.png", size: "12" },
-                    { path: "7.png", size: "12" },
-                    { path: "8.png", size: "4" },
-                    { path: "9.png", size: "8" },
-                    { path: "10.png", size: "6" },
-                    { path: "11.png", size: "6" },
-                    { path: "12.png", size: "8" },
-                    { path: "13.png", size: "4" }    
-                ]
+                images: []
             },
             { 
                 id: 2, categoryId: 2, 
@@ -43,24 +29,14 @@ angular.module('app')
                 title: 'imbratisatoarea.title', 
                 description: 'imbratisatoarea.description', 
                 cover: 'cover-photo-imbratisatoarea.png',
-                 order: 2 
+                order: 2 
             },
             {
                 id: 3, categoryId: 3, slug: 'little-map',
                 title: 'little-map.title',
                 pageTitle: 'little-map.page-title',
                 description: 'little-map.description', cover: 'cover-photo-mica-harta.png', order: 0,
-                images: [
-                    { path: "1.png", size: "12" },
-                    { path: "2.png", size: "6" },
-                    { path: "3.png", size: "6" },
-                    { path: "4.png", size: "6" },
-                    { path: "5.png", size: "6" },
-                    { path: "6.png", size: "6" },
-                    { path: "7.png", size: "6" },
-                    { path: "8.png", size: "6" },
-                    { path: "9.png", size: "6" }   
-                ]
+                images: [12, 6, 6, 6, 6, 6, 6, 6, 6]
             },
             { id: 4, categoryId: 2, slug: '8-povestiri-de-vacanta', title: '8-povestiri-de-vacanta.title', description: '8-povestiri-de-vacanta.description', order: 4 },
             { id: 5, categoryId: 3, slug: 'magic-box', title: 'magic-box.title', description: 'magic-box.description', order: 5 },
@@ -70,42 +46,14 @@ angular.module('app')
                 slug: 'teds-coffee', title: 'teds-coffee.title',
                  description: 'teds-coffee.description', 
                  order: 0,
-                images: [
-                    { path: "1.png", size: "12" },
-                    { path: "2.png", size: "8" },
-                    { path: "3.png", size: "4" },
-                    { path: "4.png", size: "4" },
-                    { path: "5.png", size: "8" },
-                    { path: "6.png", size: "12" },
-                    { path: "7.png", size: "12" },
-                    { path: "8.png", size: "4" },
-                    { path: "9.png", size: "8" },
-                    { path: "10.png", size: "6" },
-                    { path: "11.png", size: "6" },
-                    { path: "12.png", size: "8" },
-                    { path: "13.png", size: "4" }    
-                ]
+                 images: [12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4]
             },
             { 
                 id: 12, categoryId: 3, slug: 'teds-test', 
                 title: 'teds-coffee.title', 
                 description: 'teds-coffee.description', 
                 order: 0,
-                images: [
-                    { path: "1.png", size: "12" },
-                    { path: "2.png", size: "8" },
-                    { path: "3.png", size: "4" },
-                    { path: "4.png", size: "4" },
-                    { path: "5.png", size: "8" },
-                    { path: "6.png", size: "12" },
-                    { path: "7.png", size: "12" },
-                    { path: "8.png", size: "4" },
-                    { path: "9.png", size: "8" },
-                    { path: "10.png", size: "6" },
-                    { path: "11.png", size: "6" },
-                    { path: "12.png", size: "8" },
-                    { path: "13.png", size: "4" }    
-                ]
+                images: [12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4]
             },
             { id: 9, categoryId: 2, slug: 'timm-thaler', title: 'timm-thaler.title', description: 'timm-thaler.description', order: 9 },
         ]

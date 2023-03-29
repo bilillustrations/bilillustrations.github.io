@@ -44,14 +44,14 @@
                         {{project.description | translate}}
                     </p>
                 </div>
-                <div class="row mb-sm-2" >
+                <div class="row mb-sm-2" ng-if="project.images != null">
                     <div 
                         data-aos="fade-up" data-aos-delay="{{500*(4+$index)}}"
                         class="py-4 "
                         ng-repeat="image in project.images track by $index" 
-                        ng-class="getClassName(image.size)">
+                        ng-class="getClassName(image)">
 
-                        <img  ng-src="app/assets/img/{{project.slug}}/{{image.path}}" class="fit-image" alt="{{project.title|translate}}"/>
+                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index}}.png" class="fit-image" alt="{{project.title|translate}}"/>
                         
                     </div>
                 </div>
