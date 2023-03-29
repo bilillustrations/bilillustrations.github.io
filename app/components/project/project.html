@@ -23,7 +23,7 @@
     <div class="d-flex justify-content-start align-items-center px-3" style="height: 100%;">
         <ol>
             <li><a href="https://bilillustrations.github.io/">{{'MENU.PORTFOLIO' | translate}}</a></li>
-            <li ng-if="!hasError">{{project.title | translate}}</li>
+            <li ng-if="!hasError">{{project.slug + '.title' | translate}}</li>
         </ol>
     </div>
 </div>
@@ -35,10 +35,10 @@
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                 <div class="section-title text-center mb-5 pb-0 px-3">
                     <h2 class="mb-5 p-0">
-                        {{project.title | translate}}
+                        {{project.slug + '.title' | translate}}
                     </h2>
                     <p class="mt-5">
-                        {{project.description | translate}}
+                        {{project.slug + '.description' | translate}}
                     </p>
                 </div>
                 <div class="row mb-sm-2" ng-if="project.images != null">
@@ -48,7 +48,7 @@
                         ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
 
-                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.title|translate}}"/>
+                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
                         
                     </div>
                 </div>
