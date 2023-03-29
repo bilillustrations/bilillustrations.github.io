@@ -20,11 +20,11 @@
                 <div class="portfolio-wrap">
                     <img
                          ng-src="app/assets/img/{{project.slug}}/cover.png"
-                         ng-alt="{{project.title | translate}}"
+                         ng-alt="{{project.slug + '.title' | translate}}"
                          class="img-fluid w-100">
                     <div class="portfolio-links">
                         <a href="/project.html?{{project.slug}}">
-                            {{project.title | translate }}
+                            {{project.slug + '.title' | translate }}
                         </a>
                     </div>
                 </div>
