@@ -23,7 +23,6 @@ angular.module('app')
             { id: 6, categoryId: 2, slug: 'improvesti', order: 6 },
             { id: 7, categoryId: 2, slug: 'rebel-girls', order: 7 },
             { id: 8, categoryId: 3, slug: 'teds-coffee', order: 0, images: [12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4] },
-            { id: 12, categoryId: 3, slug: 'teds-test', order: 0, images: [12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4] },
             { id: 9, categoryId: 2, slug: 'timm-thaler', order: 9 },
             { id: 10, categoryId: 1, slug: 'inktober', order: 10 }
         ]
