@@ -51,7 +51,7 @@
                         ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
 
-                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index}}.png" class="fit-image" alt="{{project.title|translate}}"/>
+                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.title|translate}}"/>
                         
                     </div>
                 </div>
