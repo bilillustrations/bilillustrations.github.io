@@ -15,8 +15,36 @@ angular.module('app')
     })
     .factory("projectsFactory", function () {
         return [
-            { id: 1, categoryId: 2, slug: 'landscapes-yogurt-and-roses', title: 'landscapes-yogurt-and-roses.title', description: 'landscapes-yogurt-and-roses.description', cover: 'cover-ghid.png', order: 1 },
-            { id: 2, categoryId: 2, slug: 'imbratisatoarea', title: 'imbratisatoarea.title', description: 'imbratisatoarea.description', cover: 'cover-photo-imbratisatoarea.png', order: 2 },
+            { 
+                id: 1, categoryId: 2, slug: 'landscapes-yogurt-and-roses', 
+                title: 'landscapes-yogurt-and-roses.title', 
+                description: 'landscapes-yogurt-and-roses.description', 
+                cover: 'cover-ghid.png', 
+                order: 1,
+                images: [
+                    { path: "1.png", size: "12" },
+                    { path: "2.png", size: "8" },
+                    { path: "3.png", size: "4" },
+                    { path: "4.png", size: "4" },
+                    { path: "5.png", size: "8" },
+                    { path: "6.png", size: "12" },
+                    { path: "7.png", size: "12" },
+                    { path: "8.png", size: "4" },
+                    { path: "9.png", size: "8" },
+                    { path: "10.png", size: "6" },
+                    { path: "11.png", size: "6" },
+                    { path: "12.png", size: "8" },
+                    { path: "13.png", size: "4" }    
+                ]
+            },
+            { 
+                id: 2, categoryId: 2, 
+                slug: 'imbratisatoarea', 
+                title: 'imbratisatoarea.title', 
+                description: 'imbratisatoarea.description', 
+                cover: 'cover-photo-imbratisatoarea.png',
+                 order: 2 
+            },
             {
                 id: 3, categoryId: 3, slug: 'little-map',
                 title: 'little-map.title',
