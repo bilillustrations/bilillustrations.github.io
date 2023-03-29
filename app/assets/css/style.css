@@ -756,10 +756,10 @@ section {
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #0896be;
+  background: #a362b7;
 }
 
 ::selection {
   color: white;
-  background: #0896be;
+  background: #a362b7;
 }
