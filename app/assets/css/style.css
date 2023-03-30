@@ -211,7 +211,8 @@ h6 {
 
 .mobile-nav-active #header {
   left: 0;
-  box-shadow: 0px 0px 15px #e2e2e2!important;
+  box-shadow: 0px 0px 15px #00000026 !important;
+  
 }
 
 /*--------------------------------------------------------------

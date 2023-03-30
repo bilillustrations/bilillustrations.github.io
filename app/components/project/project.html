@@ -41,10 +41,10 @@
                         {{project.slug + '.description' | translate}}
                     </p>
                 </div>
-                <div class="row mb-sm-2" ng-if="project.images != null">
+                <div class="row" ng-if="project.images != null">
                     <div 
                         data-aos="fade-up" data-aos-delay="{{500*(4+$index)}}"
-                        class="py-3 "
+                        class="py-3 px-sm-0"
                         ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
 
