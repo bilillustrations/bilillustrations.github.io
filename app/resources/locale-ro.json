@@ -28,35 +28,15 @@
     "RIGHTS": "Toate drepturile rezervate",
     "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
   },
-  "landscapes-yogurt-and-roses": {
-    "title": "Landscapes, Yogurt & Roses"
-  },
-  "imbratisatoarea": {
-    "title": "Îmbrățișătoarea"
-  },
-  "little-map": {
-    "title": "Mica hartă a Bucureștiului",
-    "description": "Bucureștiul e super fain. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-  },
-  "8-povestiri-de-vacanta": {
-    "title": "8 povestiri de vacanță"
-  },
-  "magic-box": {
-    "title": "Cutie cu magie"
-  },
-  "improvesti": {
-    "title": "Improvești"
-  },
-  "rebel-girls": {
-    "title": "Nesupusele"
-  },
-  "teds-coffee": {
-    "title": "TED's Coffee"
-  },
-  "timm-thaler": {
-    "title": "Timm Thaler"
-  },
-  "inktober": {
-    "title": "InkTober"
-  }
+  "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":"…"},
+  "imbratisatoarea":{"title":"Îmbrățișătoarea","description":"…"},
+  "little-map":{"title":"București: Mică hartă a marelui oraș","description":""},
+  "8-povestiri-de-vacanta":{"title":"8 povestiri de vacanță","description":""},
+  "magic-box":{"title":"Cutie cu magie","description":""},
+  "improvesti":{"title":"Improvești","description":""},
+  "rebel-girls":{"title":"Nes(u)pusele","description":""},
+  "teds-coffee":{"title":"TED'S Coffee Co.","description":""},
+  "timm-thaler":{"title":"Timm Thaler sau râsul vândut","description":""},
+  "inktober":{"title":"Inktober","description":""},
+  "diy-decorations":{"title":"DIY Decorațiuni de Crăciun","description":""}
 }

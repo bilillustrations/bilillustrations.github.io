@@ -32,35 +32,15 @@
     "TITLE": "Oups!",
     "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
   },
-  "landscapes-yogurt-and-roses": {
-    "title": "Landscapes, Yogurt & Roses"
-  },
-  "imbratisatoarea": {
-    "title": "The hugger"
-  },
-  "little-map": {
-    "title": "The little map of Bucharest",
-    "description": "The little map of Bucharest is something really cool. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-  },
-  "8-povestiri-de-vacanta": {
-    "title": "8 holiday stories"
-  },
-  "magic-box": {
-    "title": "Magic box"
-  },
-  "improvesti": {
-    "title": "Improvised fairy tales"
-  },
-  "rebel-girls": {
-    "title": "Rebel girls"
-  },
-  "teds-coffee": {
-    "title": "TED's Coffee"
-  },
-  "timm-thaler": {
-    "title": "Timm Thaler"
-  },
-  "inktober": {
-    "title": "InkTober"
-  }
+  "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":"…"},
+  "imbratisatoarea":{"title":"The hugger","description":"…"},
+  "little-map":{"title":"Bucharest: A little map of the big city.","description":""},
+  "8-povestiri-de-vacanta":{"title":"8 Holiday Stories","description":""},
+  "magic-box":{"title":"Magic Box","description":""},
+  "improvesti":{"title":"Improvised Fairy Tales","description":""},
+  "rebel-girls":{"title":"","description":""},
+  "teds-coffee":{"title":"TED'S Coffee Co.","description":""},
+  "timm-thaler":{"title":"Timm Thaler or The Boy Who Sold His Laughter","description":""},
+  "inktober":{"title":"Inktober","description":"..."},
+  "diy-decorations":{"title":"DIY Christmas Decorations","description":""}
 }

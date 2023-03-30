@@ -8,7 +8,7 @@
   "MENU": {
     "HOME": "Начало",
     "PORTFOLIO": "Портфолио",
-    "ABOUT": "За",
+    "ABOUT": "За мен",
     "CONTACT": "Контакт"
   },
   "CATEGORIES": {
@@ -28,35 +28,15 @@
     "RIGHTS": "Всички права запазени",
     "LEGAL": "Всяко възпроизвеждане, производни произведения, разпространение или изтегляне на произведението, показано на този уебсайт, без разрешението на собственика е ограничено."
   },
-  "landscapes-yogurt-and-roses": {
-    "title": "Landscapes, Yogurt & Roses"
-  },
-  "imbratisatoarea": {
-    "title": "The hugger"
-  },
-  "little-map": {
-    "title": "малката карта",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-  },
-  "8-povestiri-de-vacanta": {
-    "title": "8 holiday stories"
-  },
-  "magic-box": {
-    "title": "Кутия с магия"
-  },
-  "improvesti": {
-    "title": "Импровизирани приказки"
-  },
-  "rebel-girls": {
-    "title": "Непокорните"
-  },
-  "teds-coffee": {
-    "title": "TED's Coffee"
-  },
-  "timm-thaler": {
-    "title": "Тим Талер"
-  },
-  "inktober": {
-    "title": "InkTober"
-  }
+  "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":"…"},
+  "imbratisatoarea":{"title":"Професия гушливко","description":"…"},
+  "little-map":{"title":"Букурещ: Малка карта на големия град","description":""},
+  "8-povestiri-de-vacanta":{"title":"8 ваканционни случки","description":""},
+  "magic-box":{"title":"Кутия пълна с магия","description":""},
+  "improvesti":{"title":"Импровизирани приказки","description":""},
+  "rebel-girls":{"title":"Непокорните","description":""},
+  "teds-coffee":{"title":"TED'S Coffee Co.","description":""},
+  "timm-thaler":{"title":"Тим Талър и продаденият смях","description":""},
+  "inktober":{"title":"Inktober","description":""},
+  "diy-decorations":{"title":"DIY Коледни Декорации","description":""}
 }
