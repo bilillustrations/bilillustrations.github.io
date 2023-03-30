@@ -1,5 +1,5 @@
 body {
-  font-family: 'Jost', "Roboto", sans-serif;
+  font-family: 'Montserrat', "Roboto", sans-serif;
   color: #272829;
 }
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Jost', 'Roboto', none;
+  font-family: 'Montserrat', 'Roboto', none;
 }
 
 /*--------------------------------------------------------------
@@ -85,7 +85,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: 'Jost', "Roboto", sans-serif;
+  font-family: 'Montserrat', "Roboto", sans-serif;
 }
 
 #header .profile h1 a,
