@@ -165,6 +165,6 @@
   /**
    * block right click
    */
-  document.addEventListener('contextmenu', event => event.preventDefault());
+  //document.addEventListener('contextmenu', event => event.preventDefault());
 
 })()
