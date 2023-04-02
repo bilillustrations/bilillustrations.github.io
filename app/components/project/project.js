@@ -1,27 +1,113 @@
 angular.module('app')
-    .component('project', {
-        templateUrl: "app/components/project/project.html",
-        controller: ["$scope", "projectsFactory", function ($scope, projectsFactory) {
+    // .component('project', {
+    //     templateUrl: "app/components/project/project.html",
+    //     controller: ["$scope", "projectsFactory", function ($scope, projectsFactory) {
 
-            $scope.hasError = true;
+    //         $scope.hasError = true;
 
-            var link = window.location.href.toString();
-            var initpath = "?";
+    //         var link = window.location.href.toString();
+    //         var initpath = "?";
 
-            if(link.indexOf(initpath) > 0) {
-                var path = link.substring(link.indexOf(initpath) + 1);
+    //         if(link.indexOf(initpath) > 0) {
+    //             var path = link.substring(link.indexOf(initpath) + 1);
 
-                for (var i = 0; i < projectsFactory.length; i++) {
-                    if (projectsFactory[i].slug == path) {
-                        $scope.project = projectsFactory[i];
-                        $scope.hasError = false;
-                        break;
+    //             for (var i = 0; i < projectsFactory.length; i++) {
+    //                 if (projectsFactory[i].slug == path) {
+    //                     $scope.project = projectsFactory[i];
+    //                     $scope.hasError = false;
+    //                     break;
+    //                 }
+    //             }
+    //         }
+
+    //         $scope.getClassName = function(p) {
+    //             return "col-sm-"+p;
+    //         }
+    //     }]
+    // })
+    .controller("projectController", ["$scope", "projectsFactory", function ($scope, projectsFactory) {
+
+        $scope.hasError = true;
+
+        var link = window.location.href.toString();
+        var initpath = "?";
+
+        var images = [];
+
+        $scope.take = 6;
+        $scope.skip = 0;
+       
+        if(link.indexOf(initpath) > 0) {
+            var path = link.substring(link.indexOf(initpath) + 1);
+debugger;
+            for (var i = 0; i < projectsFactory.length; i++) {
+                if (projectsFactory[i].slug == path) {
+                    $scope.hasError = false;
+                    $scope.project.slug = projectsFactory[i].slug;
+                    images = projectsFactory[i].images;
+                    
+                    var min = projectsFactory[i].images.length;
+                    if(min > $scope.take) {
+                        min = $scope.take;
                     }
+
+                    for(var i = 0; i < min; i++) {
+                        $scope.project.images.push(projectsFactory[i].images[i])
+                    }    
+
+                    break;
+                }
+            }
+        }
+
+        // this function fetches a random text and adds it to array
+        $scope.more = function () {
+            var start = $scope.project.images.length;
+debugger;
+            if(start < images.length) {
+                var min = images.length - start;
+                if(min > $scope.take) {
+                    min = $scope.take;
+                }
+
+                for(var i = start+1; i < start + $scope.take; i++) {
+                    $scope.project.images.push(images[i]);
                 }
             }
 
-            $scope.getClassName = function(p) {
-                return "col-sm-"+p;
+            if ($scope.skip < projectsFactory.length) { 
+                for (var i = $scope.skip; i < $scope.take + $scope.skip; i++) {
+                    $scope.projects.push(projectsFactory[i]);
+                }
+                $scope.skip += $scope.take;
             }
-        }]
+        };
+
+        $scope.more();
+
+
+
+        $scope.getClassName = function(p) {
+            return "col-sm-"+p;
+        }
+    }])
+    .directive("whenScrolled", function () {
+        return {
+
+            restrict: 'A',
+            link: function (scope, elem, attrs) {
+
+                // we get a list of elements of size 1 and need the first element
+                raw = elem[0];
+
+                // we load more elements when scrolled past a limit
+                elem.bind("scroll", function () {
+                    if (raw.scrollTop + raw.offsetHeight + 5 >= raw.scrollHeight) {
+                        
+                        // we can give any function which loads more elements into the list
+                        scope.$apply(attrs.whenScrolled);
+                    }
+                });
+            }
+        }
     });
