@@ -175,7 +175,21 @@ window.initCategoryFilters = function() {
           }, true);
       }
     }
+window.arrangePortfolio = function(datafilter) {
+  let portfolioContainer = select('.portfolio-container');
+  if (portfolioContainer) {
+    let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item'
+    });
 
+    portfolioIsotope.arrange({
+      filter:  this.getAttribute('data-filter')
+    });
+    portfolioIsotope.on('arrangeComplete', function () {
+       AOS.refresh()
+    });
+  }
+}
 
   /**
    * Animation on scroll
