@@ -8,7 +8,7 @@ angular.module('app')
             
             $scope.selectedFilter = null;
 
-            $scope.filter = function(categoryId) {
+            $scope.filter = function() {
                 window.initCategoryFilters();
                 // $scope.selectedFilter = categoryId;
 
