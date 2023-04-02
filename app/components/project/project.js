@@ -67,27 +67,20 @@ debugger;
         // this function fetches a random text and adds it to array
         $scope.more = function () {
             var start = $scope.project.images.length;
-debugger;
+
             if(start < images.length) {
                 var min = images.length - start;
                 if(min > $scope.take) {
                     min = $scope.take;
                 }
 
-                for(var i = start+1; i < start + $scope.take; i++) {
-                    $scope.project.images.push(images[i]);
+                for(var i = start; i < start + $scope.take; i++) {
+                    $scope.projec.images.push(images[i]);
                 }
-            }
-
-            if ($scope.skip < projectsFactory.length) { 
-                for (var i = $scope.skip; i < $scope.take + $scope.skip; i++) {
-                    $scope.projects.push(projectsFactory[i]);
-                }
-                $scope.skip += $scope.take;
             }
         };
 
-        $scope.more();
+       // $scope.more();
 
 
 
