@@ -74,7 +74,7 @@ debugger;
                     min = $scope.take;
                 }
 
-                for(var i = start; i < start + $scope.take; i++) {
+                for(var i = start; i < start + min; i++) {
                     $scope.project.images.push($scope.images[i]);
                 }
             }
@@ -95,7 +95,7 @@ debugger;
             link: function (scope, elem, attrs) {
 
                 // we get a list of elements of size 1 and need the first element
-                raw = document.getElementById("main"); //elem[0];
+                raw = elem[0];
 
                 // we load more elements when scrolled past a limit
                 elem.bind("scroll", function () {
