@@ -11,9 +11,15 @@ angular.module('app')
             $scope.filter = function(categoryId) {
                 $scope.selectedFilter = categoryId;
 
-                $timeout(function() {
-                    AOS.refresh();
-                }, 500);
+                if(categoryId == null) {
+                    window.arrangePortfolio("*")
+                } else {
+                    window.arrangePortfolio("filter-"+categoryId)
+                }
+
+                // $timeout(function() {
+                //     AOS.refresh();
+                // }, 500);
                 
                 
 
