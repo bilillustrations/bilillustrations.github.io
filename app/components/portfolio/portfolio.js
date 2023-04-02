@@ -6,11 +6,17 @@ angular.module('app')
             $scope.projects = projectsFactory;
             $scope.initFilters = false;
             
-            $scope.filter = function() {
-                if(!$scope.initFilters) {
-                    window.initCategoryFilters();
-                    $scope.initFilters = true;
-                }
+            $scope.selectedFilter = null;
+
+            $scope.filter = function(categoryId) {
+                $scope.selectedFilter = categoryId;
+                debugger;
+                AOS.refresh();
+
+                // if(!$scope.initFilters) {
+                //     window.initCategoryFilters();
+                //     $scope.initFilters = true;
+                // }
             }
 
         }]

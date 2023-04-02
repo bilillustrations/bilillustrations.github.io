@@ -16,7 +16,7 @@
 }
 
 .text-accent {
-  color: --accent-color;
+  color: var(--accent-color);
 }
 
 .portfolio #portfolio-filter-category {
