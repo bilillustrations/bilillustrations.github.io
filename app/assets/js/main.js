@@ -183,7 +183,7 @@ window.arrangePortfolio = function(datafilter) {
     });
 
     portfolioIsotope.arrange({
-      filter:  this.getAttribute('data-filter')
+      filter:  datafilter
     });
     portfolioIsotope.on('arrangeComplete', function () {
        AOS.refresh()
