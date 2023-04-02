@@ -17,10 +17,12 @@
             ng-if="projects != null">
          <div class="col-md-6 px-0 px-sm-3 portfolio-item filter-{{project.categoryId}}" ng-repeat="project in projects | orderBy:'order' track by $index">
                 <div class="portfolio-wrap">
-                    <img
-                         ng-src="app/assets/img/{{project.slug}}/cover.png"
-                         ng-alt="{{project.slug + '.title' | translate}}"
-                         class="img-fluid w-100">
+                    <a href="/project.html?{{project.slug}}">
+                        <img
+                        ng-src="app/assets/img/{{project.slug}}/cover.png"
+                        ng-alt="{{project.slug + '.title' | translate}}"
+                        class="img-fluid w-100">
+                    </a>
                     <div class="portfolio-links">
                         <a href="/project.html?{{project.slug}}">
                             {{project.slug + '.title' | translate }}
