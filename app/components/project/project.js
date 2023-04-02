@@ -99,10 +99,11 @@ debugger;
 
                 // we load more elements when scrolled past a limit
                 elem.bind("scroll", function () {
+                    scope.$apply(attrs.whenScrolled);
                     if (raw.scrollTop + raw.offsetHeight + 5 >= raw.scrollHeight) {
                         
                         // we can give any function which loads more elements into the list
-                        scope.$apply(attrs.whenScrolled);
+                        //scope.$apply(attrs.whenScrolled);
                     }
                 });
             }
