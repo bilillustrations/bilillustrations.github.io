@@ -150,7 +150,7 @@
     //  }, 3000);
     // });
 window.categoryInitialized = false;
-window.initCategoryFilters = function() {
+window.initCategoryFilters = function(categoryId) {
   debugger;
   if(!window.categoryInitialized) {
       window.categoryInitialized = true;
@@ -176,6 +176,9 @@ window.initCategoryFilters = function() {
                   AOS.refresh()
               });
           }, true);
+          debugger;
+          document.getElementById("filter-"+categoryId).click();
+
       }
     }
   }

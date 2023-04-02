@@ -8,9 +8,11 @@ angular.module('app')
             
             $scope.selectedFilter = null;
 
-            $scope.filter = function() {
-                window.initCategoryFilters();
+            $scope.filter = function(categoryId) {
+                window.initCategoryFilters(categoryId);
                 // $scope.selectedFilter = categoryId;
+
+               // document.getElementById("filter-"+categoryId).click();
 
                 // if(categoryId == null) {
                 //     window.arrangePortfolio("*")
