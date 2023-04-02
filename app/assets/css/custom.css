@@ -118,13 +118,21 @@
     height: 50px;
     background: #f9f9f9;
 }
-/* 
+
+.mobile-title {
+  font-size: 1rem;
+  text-align: right;
+}
+
+
 @media (max-width: 767.98px) {
   .portfolio .portfolio-wrap:hover::before {
-    background: linear-gradient(transparent, transparent,transparent,transparent,white);
+    background: none;
+    display: none;
   }
 
   .portfolio .portfolio-wrap:hover .portfolio-links {
+    display: none;
     top: auto;
   }
 
@@ -132,4 +140,4 @@
     font-size: 12px;
     text-align: right;
   }
-} */
+}
