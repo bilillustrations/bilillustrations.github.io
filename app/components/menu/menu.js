@@ -27,7 +27,7 @@ angular.module('app')
 
             $scope.toggle = function () {
                 var hasToggle = document.getElementsByClassName("mobile-nav-toggle");
-                if(hasToggle.length > 0) {
+                if(hasToggle.length > 0 && window.innerWidth < 1200) {
                     hasToggle[0].click();
                 }
             }
