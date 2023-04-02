@@ -32,7 +32,7 @@ angular.module('app')
         var link = window.location.href.toString();
         var initpath = "?";
 
-        var images = [];
+        $scope.images = [];
         $scope.project = {
             slug: "",
             images: []
@@ -48,15 +48,15 @@ debugger;
                     $scope.hasError = false;
 
                     $scope.project.slug = projectsFactory[i].slug;
-                    images = projectsFactory[i].images;
+                    $scope.images = projectsFactory[i].images;
                     
-                    var min = images.length;
+                    var min = $scope.images.length;
                     if(min > $scope.take) {
                         min = $scope.take;
                     }
 
                     for(var j = 0; j < min; j++) {
-                        $scope.project.images.push(images[j])
+                        $scope.project.images.push($scope.images[j])
                     }    
 
                     break;
@@ -68,14 +68,14 @@ debugger;
         $scope.more = function () {
             var start = $scope.project.images.length;
 
-            if(start < images.length) {
-                var min = images.length - start;
+            if(start < $scope.images.length) {
+                var min = $scope.images.length - start;
                 if(min > $scope.take) {
                     min = $scope.take;
                 }
 
                 for(var i = start; i < start + $scope.take; i++) {
-                    $scope.projec.images.push(images[i]);
+                    $scope.projec.images.push($scope.images[i]);
                 }
             }
         };
@@ -95,7 +95,7 @@ debugger;
             link: function (scope, elem, attrs) {
 
                 // we get a list of elements of size 1 and need the first element
-                raw = document.getElementById("project-container"); //elem[0];
+                raw = document.getElementById("main"); //elem[0];
 
                 // we load more elements when scrolled past a limit
                 elem.bind("scroll", function () {
