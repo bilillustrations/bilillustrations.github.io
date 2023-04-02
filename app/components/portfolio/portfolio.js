@@ -8,11 +8,9 @@ angular.module('app')
             
             $scope.filter = function() {
                 if(!$scope.initFilters) {
-                    initCategoryFilters();
+                    window.initCategoryFilters();
                     $scope.initFilters = true;
                 }
-                debugger;
-                //e.click();
             }
 
         }]
