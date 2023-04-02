@@ -150,7 +150,7 @@
     //  }, 3000);
     // });
 
- var initCategoryFilters = function() {
+window.initCategoryFilters = function() {
       debugger;
       let portfolioContainer = select('.portfolio-container');
       if (portfolioContainer) {
