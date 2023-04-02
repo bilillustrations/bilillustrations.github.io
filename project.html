@@ -67,10 +67,11 @@
                                 {{project.slug + '.description' | translate}}
                             </p>
                         </div>
-                        <!-- data-aos-delay="{{500*(4+$index)}}" -->
-                        <div class="row" ng-if="project.images != null" id="project-container">
+                        <!--  -->
+                        <div class="row" ng-if="project.images != null" id="project-container" style="transition: height 1s ease-out;">
                             <div 
                                 data-aos="fade-up"
+                                data-aos-delay="{{500*(2+$index)}}"
                                 class="py-3 px-0 px-sm-3"
                                 data-ng-repeat="image in project.images track by $index" 
                                 ng-show="$index < limit"
