@@ -177,7 +177,7 @@ window.initCategoryFilters = function(categoryId) {
               });
           }, true);
           debugger;
-          document.getElementById(categoryId).click();
+          document.getElementById("filter-"+categoryId).click();
 
       }
     }
