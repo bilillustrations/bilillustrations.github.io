@@ -1,4 +1,4 @@
 angular.module('app')
-    .component('headComponent', {
+    .component('head', {
         templateUrl: "app/components/head/head.html"
     });
