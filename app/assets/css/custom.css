@@ -120,10 +120,14 @@
 }
 
 .mobile-title {
-  font-size: 1rem;
-  text-align: right;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 10px 25px 10px;
 }
 
+.mobile-title a {
+  color: #272829;
+}
 
 @media (max-width: 767.98px) {
   .portfolio .portfolio-wrap:hover::before {
