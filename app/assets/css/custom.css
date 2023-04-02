@@ -39,7 +39,7 @@
         }
 .portfolio .portfolio-wrap .portfolio-links {
     bottom: -200px;
-    transition: none;
+    transition: 0.2s ease-in;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {

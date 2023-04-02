@@ -185,11 +185,11 @@ window.arrangePortfolio = function(datafilter) {
             itemSelector: '.portfolio-item'
          });
     }
-
-    window.portfolioIsotope.arrange({
+    var items = JSON.parse(JSON.stringify(window.portfolioIsotope));
+    items.arrange({
       filter: datafilter
     });
-    window.portfolioIsotope.on('arrangeComplete', function () {
+    items.on('arrangeComplete', function () {
        AOS.refresh()
     });
   }
