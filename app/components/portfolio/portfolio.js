@@ -1,7 +1,7 @@
 angular.module('app')
     .component('portfolio', {
         templateUrl: "app/components/portfolio/portfolio.html",
-        controller: ['$scope', 'projectsFactory', 'categoriesFactory', function ($scope, projectsFactory, categoriesFactory) {
+        controller: ['$scope', '$timeout', 'projectsFactory', 'categoriesFactory', function ($scope, $timeout, projectsFactory, categoriesFactory) {
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;
             $scope.initFilters = false;
@@ -10,8 +10,12 @@ angular.module('app')
 
             $scope.filter = function(categoryId) {
                 $scope.selectedFilter = categoryId;
-                debugger;
-                AOS.refresh();
+
+                $timeout(function() {
+                    AOS.refresh();
+                }, 500);
+                
+                
 
                 // if(!$scope.initFilters) {
                 //     window.initCategoryFilters();
