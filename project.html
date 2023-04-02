@@ -67,7 +67,7 @@
                                 {{project.slug + '.description' | translate}}
                             </p>
                         </div>
-                        <div class="row" ng-if="project.images != null">
+                        <div class="row" ng-if="project.images != null" id="project-container">
                             <div 
                                 data-aos="fade-up" data-aos-delay="{{500*(4+$index)}}"
                                 class="py-3 px-0 px-sm-3"
@@ -77,6 +77,9 @@
                                 <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
                                 
                             </div>
+                        </div>
+                        <div class="text-center w-100">
+                            <button class="btn btn-link" ng-click="more()">Show more</button>
                         </div>
                     </div>
                 </div>

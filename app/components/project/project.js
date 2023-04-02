@@ -95,7 +95,7 @@ debugger;
             link: function (scope, elem, attrs) {
 
                 // we get a list of elements of size 1 and need the first element
-                raw = elem[0];
+                raw = document.getElementById("project-container"); //elem[0];
 
                 // we load more elements when scrolled past a limit
                 elem.bind("scroll", function () {
