@@ -203,7 +203,7 @@ window.arrangePortfolio = function(datafilter) {
       duration: 1000,
       easing: 'ease-in-out',
       once: true,
-      mirror: true //false
+      mirror: false
     })
   });
 
