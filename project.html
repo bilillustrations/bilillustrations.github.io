@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="app" ng-controller="projectController" when-scrolled="more()">
+<html ng-app="app" ng-cloak>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@
     <link href="app/assets/css/custom.css" rel="stylesheet">
 
 </head>
-<body  >
+<body ng-controller="projectController" >
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -57,7 +57,7 @@
         <section style="padding-top: 20px;">
             <div class="inner-page">
                 <error ng-if="hasError"></error>
-                <div class="row" ng-show="!hasError">
+                <div class="row" ng-show="!hasError" when-scrolled="more()">
                     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div class="section-title text-center mb-5 pb-0 px-3">
                             <h2 class="mb-5 p-0">
