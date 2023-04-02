@@ -14,7 +14,7 @@ angular.module('app')
                 if(categoryId == null) {
                     window.arrangePortfolio("*")
                 } else {
-                    window.arrangePortfolio("filter-"+categoryId)
+                    window.arrangePortfolio(".filter-"+categoryId)
                 }
 
                 // $timeout(function() {
