@@ -15,10 +15,10 @@
         <div class="row portfolio-container" style="min-height: 100vh;"
          data-aos="fade-up" data-aos-delay="1000" 
          ng-if="projects != null">
-         <!-- | filter:(!!selectedFilter || undefined) && {categoryId: selectedFilter}  -->
+         <!-- | filter:(!!selectedFilter || undefined) && {categoryId: selectedFilter}   ng-show="selectedFilter == null || selectedFilter == project.categoryId" -->
             <div class="col-md-6 px-0 px-sm-3 portfolio-item filter-{{project.categoryId}}" 
                 ng-repeat="project in projects | orderBy:'order' track by $index"
-                ng-show="selectedFilter == null || selectedFilter == project.categoryId"
+               
                 >
                 <div class="portfolio-wrap">
                     <img
