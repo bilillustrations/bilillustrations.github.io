@@ -33,7 +33,10 @@ angular.module('app')
         var initpath = "?";
 
         var images = [];
-
+        $scope.project = {
+            slug: "",
+            images: []
+        };
         $scope.take = 6;
         $scope.skip = 0;
        
@@ -43,16 +46,17 @@ debugger;
             for (var i = 0; i < projectsFactory.length; i++) {
                 if (projectsFactory[i].slug == path) {
                     $scope.hasError = false;
+
                     $scope.project.slug = projectsFactory[i].slug;
                     images = projectsFactory[i].images;
                     
-                    var min = projectsFactory[i].images.length;
+                    var min = images.length;
                     if(min > $scope.take) {
                         min = $scope.take;
                     }
 
-                    for(var i = 0; i < min; i++) {
-                        $scope.project.images.push(projectsFactory[i].images[i])
+                    for(var j = 0; j < min; j++) {
+                        $scope.project.images.push(images[j])
                     }    
 
                     break;
