@@ -24,5 +24,12 @@ angular.module('app')
                     classes: "bi bi-person-lines-fill"
                 }
             ];
+
+            $scope.toggle = function () {
+                var hasToggle = document.getElementsByClassName("mobile-nav-toggle");
+                if(hasToggle.length > 0) {
+                    hasToggle[0].click();
+                }
+            }
         }]
     });

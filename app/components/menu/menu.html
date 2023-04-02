@@ -4,7 +4,7 @@
             <img src="app/assets/img/profile-img.png" alt="Bilyana" class="img-fluid">
         </a>
     </div>
-    <nav id="navbar" class="nav-menu navbar">
+    <nav id="navbar" class="nav-menu navbar" ng-click="toggle()">
         <ul class="w-100">
             <li ng-repeat="item in menuItems">
                 <a href="{{item.link}}" class="nav-link scrollto">
