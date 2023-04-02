@@ -11,12 +11,12 @@
                 </ul>
             </div>
         </div>
-        <!-- | filter:(!!selectedFilter || undefined) && {categoryId: selectedFilter} -->
+        
         <div class="row portfolio-container" style="min-height: 100vh;"
          data-aos="fade-up" data-aos-delay="1000" 
          ng-if="projects != null">
             <div class="col-md-6 px-0 px-sm-3 portfolio-item filter-{{project.categoryId}}" 
-                ng-repeat="project in projects | orderBy:'order'  track by $index">
+                ng-repeat="project in projects | orderBy:'order' | filter:(!!selectedFilter || undefined) && {categoryId: selectedFilter} track by $index">
                 <div class="portfolio-wrap">
                     <img
                          ng-src="app/assets/img/{{project.slug}}/cover.png"

@@ -186,8 +186,8 @@ window.arrangePortfolio = function(datafilter) {
          });
     }
 
-  window.portfolioIsotope.arrange({
-      filter:  datafilter
+    window.portfolioIsotope.arrange({
+      filter: datafilter
     });
     window.portfolioIsotope.on('arrangeComplete', function () {
        AOS.refresh()
@@ -203,7 +203,7 @@ window.arrangePortfolio = function(datafilter) {
       duration: 1000,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: true //false
     })
   });
 
