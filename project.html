@@ -31,7 +31,7 @@
     <link href="app/assets/css/custom.css" rel="stylesheet">
 
 </head>
-<body ng-controller="projectController" >
+<body>
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -44,47 +44,9 @@
         <div class="w-100 text-center d-xl-none mt-5 mb-3">
             <a href="https://bilillustrations.github.io/"><img src="app/assets/img/logo-landscape.png" alt="Bilyana" style="width: 65%; max-width: 400px; min-height: 75px;" /></a>
         </div>
-        <!-- <project></project> -->
+        <project></project>
 
-        <section class="breadcrumbs">
-            <div class="d-flex justify-content-start align-items-center px-3" style="height: 100%;">
-                <ol>
-                    <li><a href="https://bilillustrations.github.io/">{{'MENU.PORTFOLIO' | translate}}</a></li>
-                    <li ng-if="!hasError">{{project.slug + '.title' | translate}}</li>
-                </ol>
-            </div>
-        </section>
-        <section style="padding-top: 20px;">
-            <div class="inner-page">
-                <error ng-if="hasError"></error>
-                <div class="row" ng-show="!hasError" when-scrolled="more()">
-                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                        <div class="section-title text-center mb-5 pb-0 px-3">
-                            <h2 class="mb-5 p-0">
-                                {{project.slug + '.title' | translate}}
-                            </h2>
-                            <p class="mt-5">
-                                {{project.slug + '.description' | translate}}
-                            </p>
-                        </div>
-                        <!--  -->
-                        <div class="row" ng-if="project.images != null" id="project-container">
-                            <div 
-                                data-aos="fade-up"
-                                data-aos-delay="500"
-                                class="py-3 px-0 px-sm-3"
-                                data-ng-repeat="image in project.images | limitTo:limit track by $index" 
-                                ng-class="getClassName(image)">
-                                <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
-                            </div>
-                        </div>
-                        <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">
-                            <button class="btn btn-link" ng-click="more()" style="color:var(--accent-color)">Show more</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
         <contact></contact>
         <footer-component></footer-component>
