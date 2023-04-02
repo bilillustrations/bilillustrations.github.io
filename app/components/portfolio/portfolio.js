@@ -11,15 +11,15 @@ angular.module('app')
             $scope.filter = function(categoryId) {
                 $scope.selectedFilter = categoryId;
 
-                // if(categoryId == null) {
-                //     window.arrangePortfolio("*")
-                // } else {
-                //     window.arrangePortfolio(".filter-"+categoryId)
-                // }
+                if(categoryId == null) {
+                    window.arrangePortfolio("*")
+                } else {
+                    window.arrangePortfolio(".filter-"+categoryId)
+                }
 
-                $timeout(function() {
-                    AOS.refresh();
-                }, 500);
+                // $timeout(function() {
+                //     AOS.refresh();
+                // }, 500);
                 
                 
 
