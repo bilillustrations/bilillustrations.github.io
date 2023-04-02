@@ -175,17 +175,21 @@ window.initCategoryFilters = function() {
           }, true);
       }
     }
-window.arrangePortfolio = function(datafilter) {
-  let portfolioContainer = select('.portfolio-container');
-  if (portfolioContainer) {
-    let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
-    });
 
-    portfolioIsotope.arrange({
+window.portfolioIsotope = null;   
+window.arrangePortfolio = function(datafilter) {
+  if(window.portfolioIsotope == null) {
+    let portfolioContainer = select('.portfolio-container');
+    if (portfolioContainer) {
+        window.portfolioIsotope = new Isotope(portfolioContainer, {
+            itemSelector: '.portfolio-item'
+         });
+    }
+
+  window.portfolioIsotope.arrange({
       filter:  datafilter
     });
-    portfolioIsotope.on('arrangeComplete', function () {
+    window.portfolioIsotope.on('arrangeComplete', function () {
        AOS.refresh()
     });
   }
