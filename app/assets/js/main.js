@@ -149,8 +149,11 @@
     //       }
     //  }, 3000);
     // });
-
+window.categoryInitialized = false;
 window.initCategoryFilters = function() {
+  debugger;
+  if(!window.categoryInitialized) {
+      window.categoryInitialized = true;
       let portfolioContainer = select('.portfolio-container');
       if (portfolioContainer) {
           let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -175,6 +178,7 @@ window.initCategoryFilters = function() {
           }, true);
       }
     }
+  }
 
 window.portfolioIsotope = null;   
 window.arrangePortfolio = function(datafilter) {

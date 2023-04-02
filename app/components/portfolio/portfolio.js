@@ -9,13 +9,14 @@ angular.module('app')
             $scope.selectedFilter = null;
 
             $scope.filter = function(categoryId) {
-                $scope.selectedFilter = categoryId;
+                window.initCategoryFilters();
+                // $scope.selectedFilter = categoryId;
 
-                if(categoryId == null) {
-                    window.arrangePortfolio("*")
-                } else {
-                    window.arrangePortfolio(".filter-"+categoryId)
-                }
+                // if(categoryId == null) {
+                //     window.arrangePortfolio("*")
+                // } else {
+                //     window.arrangePortfolio(".filter-"+categoryId)
+                // }
 
                 // $timeout(function() {
                 //     AOS.refresh();
