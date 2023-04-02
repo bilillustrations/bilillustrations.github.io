@@ -145,3 +145,11 @@
     text-align: right;
   }
 }
+
+.btn-link {
+  color: var(--accent-text-color);
+}
+
+.btn-link:hover {
+  color: var(--accent-text-color-darker);
+}
