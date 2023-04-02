@@ -1,9 +1,20 @@
 angular.module('app')
     .component('portfolio', {
         templateUrl: "app/components/portfolio/portfolio.html",
-        controller: ['$scope', 'projectsFactory', 'categoriesFactory', function ($scope, projectsFactory, categoriesFactory) {
+        controller: ['$scope',"$event", 'projectsFactory', 'categoriesFactory', function ($scope,$event, projectsFactory, categoriesFactory) {
             $scope.categories = categoriesFactory;
-            $scope.projects = projectsFactory;     
+            $scope.projects = projectsFactory;
+            $scope.initFilters = false;
+            
+            $scope.filter = function(e) {
+                if(!$scope.initFilters) {
+                    initCategoryFilters();
+                    $scope.initFilters = true;
+                }
+                debugger;
+                e.click();
+            }
+
         }]
     })
     .factory("categoriesFactory", function () {
