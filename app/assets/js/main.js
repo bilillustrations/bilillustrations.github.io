@@ -151,7 +151,6 @@
     // });
 window.categoryInitialized = false;
 window.initCategoryFilters = function(categoryId) {
-  debugger;
   if(!window.categoryInitialized) {
       window.categoryInitialized = true;
       let portfolioContainer = select('.portfolio-container');
@@ -176,31 +175,11 @@ window.initCategoryFilters = function(categoryId) {
                   AOS.refresh()
               });
           }, true);
-          debugger;
+          //first click
           document.getElementById("filter-"+categoryId).click();
-
       }
     }
   }
-
-window.portfolioIsotope = null;   
-window.arrangePortfolio = function(datafilter) {
-  if(window.portfolioIsotope == null) {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-        window.portfolioIsotope = new Isotope(portfolioContainer, {
-            itemSelector: '.portfolio-item'
-         });
-    }
-    var items = JSON.parse(JSON.stringify(window.portfolioIsotope));
-    items.arrange({
-      filter: datafilter
-    });
-    items.on('arrangeComplete', function () {
-       AOS.refresh()
-    });
-  }
-}
 
   /**
    * Animation on scroll

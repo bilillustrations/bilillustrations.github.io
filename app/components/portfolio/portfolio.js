@@ -4,34 +4,10 @@ angular.module('app')
         controller: ['$scope', '$timeout', 'projectsFactory', 'categoriesFactory', function ($scope, $timeout, projectsFactory, categoriesFactory) {
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;
-            $scope.initFilters = false;
-            
-            $scope.selectedFilter = null;
 
             $scope.filter = function(categoryId) {
                 window.initCategoryFilters(categoryId);
-                // $scope.selectedFilter = categoryId;
-
-               // document.getElementById("filter-"+categoryId).click();
-
-                // if(categoryId == null) {
-                //     window.arrangePortfolio("*")
-                // } else {
-                //     window.arrangePortfolio(".filter-"+categoryId)
-                // }
-
-                // $timeout(function() {
-                //     AOS.refresh();
-                // }, 500);
-                
-                
-
-                // if(!$scope.initFilters) {
-                //     window.initCategoryFilters();
-                //     $scope.initFilters = true;
-                // }
             }
-
         }]
     })
     .factory("categoriesFactory", function () {
