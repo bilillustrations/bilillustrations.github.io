@@ -75,7 +75,7 @@ debugger;
                 }
 
                 for(var i = start; i < start + $scope.take; i++) {
-                    $scope.projec.images.push($scope.images[i]);
+                    $scope.project.images.push($scope.images[i]);
                 }
             }
         };
