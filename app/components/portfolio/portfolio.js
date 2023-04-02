@@ -1,18 +1,18 @@
 angular.module('app')
     .component('portfolio', {
         templateUrl: "app/components/portfolio/portfolio.html",
-        controller: ['$scope',"$event", 'projectsFactory', 'categoriesFactory', function ($scope,$event, projectsFactory, categoriesFactory) {
+        controller: ['$scope', 'projectsFactory', 'categoriesFactory', function ($scope, projectsFactory, categoriesFactory) {
             $scope.categories = categoriesFactory;
             $scope.projects = projectsFactory;
             $scope.initFilters = false;
             
-            $scope.filter = function(e) {
+            $scope.filter = function() {
                 if(!$scope.initFilters) {
                     initCategoryFilters();
                     $scope.initFilters = true;
                 }
                 debugger;
-                e.click();
+                //e.click();
             }
 
         }]
