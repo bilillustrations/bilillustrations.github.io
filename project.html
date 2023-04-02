@@ -68,13 +68,12 @@
                             </p>
                         </div>
                         <!--  -->
-                        <div class="row" ng-if="project.images != null" id="project-container" style="transition: height 1s ease-out;">
+                        <div class="row" ng-if="project.images != null" id="project-container">
                             <div 
                                 data-aos="fade-up"
-                                data-aos-delay="{{500*(2+$index)}}"
+                                data-aos-delay="500"
                                 class="py-3 px-0 px-sm-3"
-                                data-ng-repeat="image in project.images track by $index" 
-                                ng-show="$index < limit"
+                                data-ng-repeat="image in project.images | limitTo:limit track by $index" 
                                 ng-class="getClassName(image)">
                                 <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
                             </div>
