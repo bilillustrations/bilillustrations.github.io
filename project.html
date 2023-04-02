@@ -67,18 +67,18 @@
                                 {{project.slug + '.description' | translate}}
                             </p>
                         </div>
+                        <!-- data-aos-delay="{{500*(4+$index)}}" -->
                         <div class="row" ng-if="project.images != null" id="project-container">
                             <div 
-                                data-aos="fade-up" data-aos-delay="{{500*(4+$index)}}"
+                                data-aos="fade-up"
                                 class="py-3 px-0 px-sm-3"
                                 data-ng-repeat="image in project.images track by $index" 
+                                ng-show="$index < limit"
                                 ng-class="getClassName(image)">
-        
                                 <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
-                                
                             </div>
                         </div>
-                        <div class="text-center w-100 mt-4" ng-if="project.images.length < images.length">
+                        <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">
                             <button class="btn btn-link" ng-click="more()" style="color:var(--accent-color)">Show more</button>
                         </div>
                     </div>

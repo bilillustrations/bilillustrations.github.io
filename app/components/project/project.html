@@ -23,7 +23,7 @@
                     <div 
                         data-aos="fade-up" data-aos-delay="{{500*(4+$index)}}"
                         class="py-3 px-0 px-sm-3"
-                        ng-repeat="image in project.images | limitTo: limit track by $index" 
+                        ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
 
                         <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
