@@ -19,8 +19,8 @@ angular.module('app')
     })
     .factory("projectsFactory", function () {
         return [
-            {  id: 1, categoryId: 2, slug: 'landscapes-yogurt-and-roses', order: 10, images: [] },
-            { id: 2, categoryId: 2, slug: 'imbratisatoarea',  order: 3 },
+            {  id: 1, categoryId: 2, slug: 'landscapes-yogurt-and-roses', order: 10, images: [12] },
+            { id: 2, categoryId: 2, slug: 'imbratisatoarea',  order: 3, images: [12] },
             { id: 3, categoryId: 3, slug: 'little-map', order: 0, images: [12, 5, 7, 6, 6, 6, 6, 6, 6] },
             { id: 4, categoryId: 2, slug: '8-povestiri-de-vacanta', order: 4 },
             { id: 5, categoryId: 3, slug: 'magic-box',  order: 5 },
