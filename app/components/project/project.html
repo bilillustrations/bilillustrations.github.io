@@ -26,7 +26,10 @@
                         class="py-3 px-0 px-sm-3"
                         data-ng-repeat="image in project.images | limitTo:limit track by $index" 
                         ng-class="getClassName(image)">
-                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" class="fit-image" alt="{{project.slug + '.title'|translate}}"/>
+                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" 
+                            class="fit-image" 
+                            alt="{{project.slug + '.title'|translate}}"
+                            loading="$index>5? 'lazy':'eager'"/>
                     </div>
                 </div>
                 <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">
