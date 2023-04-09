@@ -9,15 +9,11 @@
 <section style="padding-top: 20px; min-height: 100vh;">
     <div class="inner-page">
         <error ng-if="hasError"></error>
-        <div class="row" ng-show="!hasError" when-scrolled="more()">
+        <div class="row" ng-show="!hasError">
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                 <div class="section-title text-center mb-5 pb-0 px-3">
-                    <h2 class="mb-5 p-0">
-                        {{project.slug + '.title' | translate}}
-                    </h2>
-                    <p class="mt-5">
-                        {{project.slug + '.description' | translate}}
-                    </p>
+                    <h2 class="mb-5 p-0" ng-bind-html="project.slug + '.title' | translate"></h2>
+                    <div class="mt-5" ng-bind-html="project.slug + '.description' | translate"></div>
                 </div>
                 <div class="row" ng-if="project.images != null" id="project-container">
                     <div 
