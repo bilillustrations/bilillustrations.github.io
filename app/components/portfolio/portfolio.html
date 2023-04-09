@@ -26,14 +26,14 @@
                         fetchpriority="{{$index < 2? 'high':'auto'}}">
                     </a>
                     <div class="portfolio-links">
-                        <a href="/project.html?{{project.slug}}" ng-bind-html="project.slug + '.title' | translate">
-                            ...
+                        <a href="/project.html?{{project.slug}}">
+                            {{project.slug + '.title' | translate }}
                         </a>
                     </div>
                 </div>
                 <div class="d-block d-md-none mobile-title">
-                    <a href="/project.html?{{project.slug}}" ng-bind-html="project.slug + '.title' | translate">
-                        ...
+                    <a href="/project.html?{{project.slug}}">
+                        {{project.slug + '.title' | translate }}
                     </a>
                 </div>
             </div>
