@@ -24,7 +24,7 @@ angular.module('app')
             { id: 3, categoryId: 3, slug: 'little-map', order: 0, images: [12, 5, 7, 6, 6, 6, 6, 6, 6] },
             { id: 4, categoryId: 2, slug: '8-povestiri-de-vacanta', order: 4 },
             { id: 5, categoryId: 3, slug: 'magic-box',  order: 5 },
-            { id: 6, categoryId: 2, slug: 'improvesti', order: 6, behance: 'https://www.behance.net/gallery/87612587/Improvesti-%28Improvised-fairy-tales%29' },
+            { id: 6, categoryId: 2, slug: 'improvesti', order: 6, behance: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c7d8c87612587.5dbd8c97308dd.jpg' },
             { id: 7, categoryId: 2, slug: 'rebel-girls', order: 7, images: [12, 12, 12, 6, 6, 6, 6]  },
             { id: 8, categoryId: 3, slug: 'teds-coffee', order: 1, images: [12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4] },
             { id: 9, categoryId: 2, slug: 'timm-thaler', order: 9, images: [6, 6, 4, 8, 8, 4, 4, 8, 8, 4, 4, 4, 4, 6, 6, 8, 4, 6, 6] },

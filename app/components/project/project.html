@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-start align-items-center px-3" style="height: 100%;">
         <ol>
             <li><a href="https://bilillustrations.github.io/">{{'MENU.PORTFOLIO' | translate}}</a></li>
-            <li ng-if="!hasError">{{project.slug + '.title' | translate}}</li>
+            <li ng-if="!hasError" class="d-none d-sm-inline">{{project.slug + '.title' | translate}}</li>
         </ol>
     </div>
 </section>
@@ -33,7 +33,19 @@
                             fetchpriority="{{$index < 1? 'high':'auto'}}"/>
                     </div>
                 </div>
-                <iframe ng-if="project.behance != null" class="container" ng-src="project.behance"></iframe>
+                <div class="row" ng-if="project.behance != null" id="project-container">
+                    <div 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        class="py-3 px-0 px-sm-3"
+                        ng-class="col-auto">
+                        <img ng-src="{{project.behance}}" 
+                            class="fit-image" 
+                            alt="{{project.slug + '.title'|translate}}"
+                            loading="{{$index>5? 'lazy':'eager'}}"
+                            fetchpriority="{{$index < 1? 'high':'auto'}}"/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
