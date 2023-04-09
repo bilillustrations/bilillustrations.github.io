@@ -24,7 +24,7 @@
                         data-aos="fade-up"
                         data-aos-delay="500"
                         class="py-3 px-0 px-sm-3"
-                        data-ng-repeat="image in project.images | limitTo:limit track by $index" 
+                        data-ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
                         <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" 
                             class="fit-image" 
@@ -32,9 +32,9 @@
                             loading="{{$index>5? 'lazy':'eager'}}"/>
                     </div>
                 </div>
-                <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">
+                <!-- <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">
                     <button class="btn btn-link text-accent" ng-click="more()"">{{"GENERAL.SHOW_MORE" | translate}}</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
