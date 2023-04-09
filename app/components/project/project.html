@@ -6,7 +6,7 @@
         </ol>
     </div>
 </section>
-<section style="padding-top: 20px;">
+<section style="padding-top: 20px; min-height: 100vh;">
     <div class="inner-page">
         <error ng-if="hasError"></error>
         <div class="row" ng-show="!hasError" when-scrolled="more()">
@@ -29,7 +29,8 @@
                         <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" 
                             class="fit-image" 
                             alt="{{project.slug + '.title'|translate}}"
-                            loading="{{$index>5? 'lazy':'eager'}}"/>
+                            loading="{{$index>5? 'lazy':'eager'}}"
+                            fetchpriority="{{$index < 1? 'high':'auto'}}"/>
                     </div>
                 </div>
                 <!-- <div class="text-center w-100 mt-4" ng-if="project.images.length > limit">

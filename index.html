@@ -2,8 +2,7 @@
 <html ng-app="app">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>bilillustrations</title>
 
     <meta property="og:title" content="bilillustrations">
@@ -40,7 +39,10 @@
     <legal></legal>
     <main id="main">
         <div class="w-100 text-center d-xl-none mt-5 mb-3">
-            <img src="app/assets/img/logo-landscape.png" alt="Bilyana" style="width: 65%; max-width: 400px; min-height: 75px;" />
+            <img src="app/assets/img/logo-landscape.png" 
+                alt="Bilyana" 
+                fetchpriority="high" 
+                style="width: 65%; max-width: 400px; min-height: 75px;" />
         </div>
         <portfolio></portfolio>
         <about></about>

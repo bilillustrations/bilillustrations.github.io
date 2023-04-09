@@ -2,7 +2,7 @@
 <html ng-app="app" ng-cloak>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>bilillustrations</title>
 
@@ -41,7 +41,11 @@
     <legal></legal>
     <main id="main" >
         <div class="w-100 text-center d-xl-none mt-5 mb-3">
-            <a href="https://bilillustrations.github.io/"><img src="app/assets/img/logo-landscape.png" alt="Bilyana" style="width: 65%; max-width: 400px; min-height: 75px;" /></a>
+            <a href="https://bilillustrations.github.io/">
+                <img src="app/assets/img/logo-landscape.png" 
+                    fetchpriority="high" 
+                    alt="Bilyana" 
+                    style="width: 65%; max-width: 400px; min-height: 75px;" /></a>
         </div>
         <project></project>
         

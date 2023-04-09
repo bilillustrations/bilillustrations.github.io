@@ -22,7 +22,8 @@
                         ng-src="app/assets/img/{{project.slug}}/cover.png"
                         ng-alt="{{project.slug + '.title' | translate}}"
                         class="img-fluid w-100"
-                        loading="{{$index>3? 'lazy':'eager'}}">
+                        loading="{{$index>3? 'lazy':'eager'}}"
+                        fetchpriority="{{$index < 2? 'high':'auto'}}">
                     </a>
                     <div class="portfolio-links">
                         <a href="/project.html?{{project.slug}}">
