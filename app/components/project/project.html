@@ -40,7 +40,7 @@
                         class="py-3 px-0 px-sm-3"
                         data-ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
-                        <img  ng-src="{{project.imagesUrls}}" 
+                        <img  ng-src="{{project.imagesUrls[$index]}}" 
                             class="fit-image" 
                             alt="{{project.slug + '.title'|translate}}"
                             loading="{{$index>5? 'lazy':'eager'}}"
