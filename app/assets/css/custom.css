@@ -153,3 +153,26 @@
 .btn-link:hover {
   color: var(--accent-text-color-darker);
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--accent-background-color);
+    border-color: var(--accent-background-color);
+}
+
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:focus,
+    .btn-primary.active,
+    .btn-primary:focus-visible,
+    .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+        /* let's darken #004E64 a bit for hover effect */
+        background: var(--accent-background-color-darker);
+        border-color: var(--accent-background-color-darker);
+    }
+
+.form-control:focus {
+    border-color: rgba(255, 136, 201, 0.6);
+    /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 136, 201, 0.6);*/
+    box-shadow: none;
+}
