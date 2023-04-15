@@ -28,6 +28,18 @@
     "RIGHTS": "Toate drepturile rezervate",
     "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
   },
+  "ERROR": {
+    "TITLE": "Oups!",
+    "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+  },
+  "CONTACT": {
+    "TITLE":"Lasă-mi un mesaj",
+    "NAME": "Nume",
+    "EMAIL": "E-mail",
+    "MESSAGE": "Mesaj",
+    "AGREE": "Sunt de acord ca datele furnizate să fie stocate de google.com",
+    "SEND": "Trimite"
+  },
   "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt and Roses","description":"…"},
   "imbratisatoarea":{"title":"Îmbrățișătoarea","description":"…"},
   "little-map":{"title":"București: Mică hartă a marelui oraș","description":""},

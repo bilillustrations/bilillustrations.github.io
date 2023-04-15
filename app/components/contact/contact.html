@@ -33,48 +33,34 @@
             </div>
             <div class="col-lg-7 col-xl-6">
                 <div class="info">
-                    <h4 class="p-0 ">Lasa-mi un mesaj</h4>
+                    <h4 class="p-0 ">{{"CONTACT.TITLE" | translate}}</h4>
                     <iframe name="redirectframe" id="redirectframe" style="display: none;"></iframe>
                     <form action="https://docs.google.com/forms/d/e/1FAIpQLSdz_Blks2ApIjPPXlTvD4KTggmBkjBvPLOBI7vY896KRlFa7w/formResponse" method="post" target="redirectframe">
                         <div class="my-4">
-                            <label class="form-label px-4" for="entry.1751378427">Email*</label>
+                            <label class="form-label px-4" for="entry.1751378427">{{"CONTACT.EMAIL" | translate}}*</label>
                             <input class="form-control rounded-5 px-4" type="email" id="entry.1751378427" name="entry.1751378427" required>
                         </div>
                         <div class="my-4">
-                            <label class="form-label px-4" for="entry.101822246">Name*</label>
+                            <label class="form-label px-4" for="entry.101822246">{{"CONTACT.NAME" | translate}}*</label>
                             <input class="form-control rounded-5 px-4" type="text" id="entry.101822246" name="entry.101822246" required>
                         </div>
                         <div class="my-4">
-                            <label class="form-label px-4 py-3" for="entry.414920846">Message</label>
-                            <textarea class="form-control rounded-5 px-4" rows="5" id="entry.414920846" name="entry.414920846"></textarea>
+                            <label class="form-label px-4" for="entry.414920846">{{"CONTACT.MESSAGE" | translate}}</label>
+                            <textarea class="form-control rounded-5 px-4 py-3" rows="5" id="entry.414920846" name="entry.414920846"></textarea>
                         </div>
                         <div class="my-4 d-flex">
                             <div class="form-check mb-3 mx-auto">
                                 <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
-                                <label class="form-check-label" for="myCheck">I agree on storing data by google.com</label>
+                                <label class="form-check-label" for="myCheck" style="font-size:12px">{{"CONTACT.AGREE" | translate}}</label>
                             </div>
                         </div>
                         
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary rounded-5">Send</button>
+                            <button type="submit" class="btn btn-primary rounded-5">{{"CONTACT.SEND" | translate}}</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdz_Blks2ApIjPPXlTvD4KTggmBkjBvPLOBI7vY896KRlFa7w/formResponse" method="post">
-            
-            <label>Email Address*</label>
-            <input type="email" placeholder="Email address*" name="entry.1751378427" required>
-            
-            <label>Name*</label>
-            <input type="text" placeholder="Name*" name="entry.101822246" required>
-        
-            <label>Message*</label>
-            <textarea rows="5" placeholder="Message*" name="entry.414920846"></textarea>
-           
-            <button type="submit" class="btn btn-primary rounded-5">Send</button>
-        </form>
     </div>
 </section><!-- End Contact Section -->

@@ -32,6 +32,14 @@
     "TITLE": "Oups!",
     "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
   },
+  "CONTACT": {
+    "TITLE":"Leave me a message",
+    "NAME": "Name",
+    "EMAIL": "E-mail",
+    "MESSAGE": "Message",
+    "AGREE": "I agree on storing data by google.com",
+    "SEND": "Send"
+  },
   "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt and Roses","description":"…"},
   "imbratisatoarea":{"title":"The hugger","description":"…"},
   "little-map":{"title":"Bucharest: A little map of the big city.","description":""},
