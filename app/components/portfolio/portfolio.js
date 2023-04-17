@@ -20,7 +20,7 @@ angular.module('app')
     .factory("projectsFactory", function () {
         return [
             {  id: 1, categoryId: 2, slug: 'landscapes-yogurt-and-roses', order: 10, images: [12] },
-            { id: 2, categoryId: 2, slug: 'imbratisatoarea',  order: 3, images: [6,6,4,4,4,8,4,4,8,8,4,6,6,6,6], 
+            { id: 2, categoryId: 2, slug: 'imbratisatoarea',  order: 3, images: [6,6,4,4,4,7,5,5,7,7,5,6,6,6,6], 
                 imagesUrls: [
                     "https://drive.google.com/uc?export=view&id=1Km7Myn-mpXKFKtkJ0OjcvzA-0ACnXSXZ",
                     "https://drive.google.com/uc?export=view&id=1QQl8OuNvpbRgXFUvYWACZX0Kj83tQaK7",
