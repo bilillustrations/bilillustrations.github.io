@@ -179,21 +179,16 @@
 
 .box {
     position: relative;
-    margin: 40px auto;
-    width: 400px;
-    height: 350px;
-    background: #fff;
-    border-radius: 2px;
   }
   
   .box::before,
   .box::after {
     content: '';
     position: absolute;
-    bottom: 10px;
+    bottom: 14px;
     width: 40%;
     height: 10px;
-    box-shadow: 0 5px 14px rgba(0,0,0,.7);
+    box-shadow: 0 5px 14px rgb(131 131 131);
     z-index: -1;
     transition: all .3s ease-in-out;
   }
