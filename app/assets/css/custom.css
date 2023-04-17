@@ -99,12 +99,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f9f9f9;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #a5a5a5;
+    border-radius: 10px;
 }
 
 /* Handle on hover */
