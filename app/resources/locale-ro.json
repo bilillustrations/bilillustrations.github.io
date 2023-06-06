@@ -8,7 +8,7 @@
   "MENU": {
     "HOME": "Acasă",
     "PORTFOLIO": "Portofoliu",
-    "ABOUT": "Despre",
+    "ABOUT": "Despre mine",
     "CONTACT": "Contact"
   },
   "CATEGORIES": {
@@ -40,6 +40,12 @@
     "AGREE": "Sunt de acord ca datele furnizate să fie stocate de google.com",
     "SEND": "Trimite"
   },
+  "ABOUT": {
+    "TITLE": "Despre mine",
+    "P1": "Bună! Eu sunt Bilyana.",
+    "P2": "Din 2015 activez în domeniile ilustrației și designului grafic, iar de cele mai multe ori le îmbin. Mi-am descoperit pasiunea destul de devreme, așa că m-am înscris la liceul de arte, urmând ca apoi să absolv Universitatea Națională de Arte din București.",
+    "P3": "Îmi plac formele simple și sunt mereu în căutarea detaliilor și combinațiilor cromatice surprinzătoare. Inspirația mi-o găsesc în oamenii din jurul meu și poveștile lor, dar și în călătoriile apropiate sau îndepărtate."
+  },
   "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":""},
   "imbratisatoarea":{"title":"Îmbrățișătoarea","description":""},
   "little-map":{"title":"București: Mică hartă a marelui oraș","description":""},
@@ -51,5 +57,6 @@
   "timm-thaler":{"title":"Timm Thaler sau râsul vândut","description":""},
   "inktober":{"title":"Inktober","description":""},
   "diy-decorations":{"title":"DIY Decorațiuni de Crăciun","description":""},
-  "5-poems":{"title":"5 Poems","description":""}
+  "5-poems":{"title":"5 Poems","description":""},
+  "emotions":{"title":"Citеști în armonie cu emoțiile tale?","description":""}
 }

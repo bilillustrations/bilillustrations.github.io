@@ -8,7 +8,7 @@
   "MENU": {
     "HOME": "Home",
     "PORTFOLIO": "Portfolio",
-    "ABOUT": "About",
+    "ABOUT": "About me",
     "CONTACT": "Contact"
   },
   "CATEGORIES": {
@@ -40,6 +40,12 @@
     "AGREE": "I agree on storing data by google.com",
     "SEND": "Send"
   },
+  "ABOUT": {
+    "TITLE": "About me",
+    "P1": "Hi! I am Bilyana.",
+    "P2": "Since 2015 I have been active in the fields of illustration and graphic design, and most of the time I combine them. I discovered my passion quite early, so I enrolled in art high school, and then I graduated from the National University of Arts in Bucharest.",
+    "P3": "I love simple shapes and I'm always looking for details and surprising color combinations. I find my inspiration in the people around me and their stories, but also in trips near or far."
+  },
   "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":""},
   "imbratisatoarea":{"title":"The hugger","description":""},
   "little-map":{"title":"Bucharest: A little map of the big city.","description":""},
@@ -51,5 +57,6 @@
   "timm-thaler":{"title":"Timm Thaler or The Boy Who Sold His Laughter","description":""},
   "inktober":{"title":"Inktober","description":""},
   "diy-decorations":{"title":"DIY Christmas Decorations","description":""},
-  "5-poems":{"title":"5 Poems","description":""}
+  "5-poems":{"title":"5 Poems","description":""},
+  "emotions":{"title":"Are you in harmony with your emotions?","description":""}
 }

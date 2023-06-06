@@ -28,6 +28,24 @@
     "RIGHTS": "Всички права запазени",
     "LEGAL": "Всяко възпроизвеждане, производни произведения, разпространение или изтегляне на произведението, показано на този уебсайт, без разрешението на собственика е ограничено."
   },
+  "ERROR": {
+    "TITLE": "Oups!",
+    "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+  },
+  "CONTACT": {
+    "TITLE":"Leave me a message",
+    "NAME": "Name",
+    "EMAIL": "E-mail",
+    "MESSAGE": "Message",
+    "AGREE": "I agree on storing data by google.com",
+    "SEND": "Send"
+  },
+  "ABOUT": {
+    "TITLE": "За мен",
+    "P1": "Здравей! Аз съм Биляна.",
+    "P2": "От 2015 работя активно в сферата на графичния дизайн и илюстрацията, а много често обичам и да ги комбинирам. Открих любовта си към рисуването сравнително рано. Завърших гимназия по изкуствата, а след това продължих да следвам в Националния Университет по Изкуствата в Букурещ.",
+    "P3": "Харесвам простите форми и винаги съм в търсене на изненадващи детайли и цветови комбинации. Черпя вдъхновение от хората около мен и историите им, но и от близките и далечни пътувания."
+  },
   "landscapes-yogurt-and-roses":{"title":"Landscapes, Yogurt & Roses","description":"…"},
   "imbratisatoarea":{"title":"Раздавач на прегръдки","description":"…"},
   "little-map":{"title":"Букурещ: Малка карта на големия град","description":""},
@@ -39,5 +57,6 @@
   "timm-thaler":{"title":"Тим Талър и продаденият смях","description":""},
   "inktober":{"title":"Inktober","description":""},
   "diy-decorations":{"title":"DIY Коледни Декорации","description":""},
-  "5-poems":{"title":"5 Poems","description":""}
+  "5-poems":{"title":"5 Poems","description":""},
+  "emotions":{"title":"Are you in harmony with your emotions?","description":""}
 }
