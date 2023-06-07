@@ -29,7 +29,7 @@ angular.module('app')
             {id:8, categoryId:3,slug:'teds-coffee',order:1, images:[12, 8, 4, 4, 8, 12, 12, 4, 8, 6, 6, 8, 4]},
             {id:9, categoryId:2,slug:'timm-thaler',order:9, images:[6, 6, 4, 8, 8, 4, 4, 8, 8, 4, 4, 4, 4, 6, 6, 8, 4, 6, 6]},
             {id:10, categoryId:1,slug:'inktober',order:2, images:[6,6,4,4,4,12,6,6,6,6,6,6,4,4,4,4,4,4,12,6,6,6,6,6,6,6,6,6,6,6,6]},
-            {id:11, categoryId:3,slug:'emotions',order:2, images:[12]},
+            // {id:11, categoryId:3,slug:'emotions',order:2, images:[12]},
             {id:12, categoryId:1,slug:'5-poems',order:12, images:[6,6,12]}
         ]
     });
