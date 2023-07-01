@@ -22,4 +22,9 @@ angular.module('app')
                 return "col-sm-"+p;
             }
         }]
-    });
+    })
+    .filter('safeHtml', ["$sce", function ($sce) {
+        return function (val) {
+            return $sce.trustAsHtml(val);
+        };
+    }]);

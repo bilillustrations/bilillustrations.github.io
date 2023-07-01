@@ -15,9 +15,9 @@
                     <h2 class="mb-5 p-0">
                         {{project.slug + '.title' | translate}}
                     </h2>
-                    <p class="mt-5">
-                        {{project.slug + '.description' | translate}}
-                    </p>
+                    <div class="mt-5" ng-bind-html="project.slug + '.description' | translate | safeHtml">
+                        
+                    </div>
                 </div>
                 <div class="row" ng-if="project.images != null && project.imagesUrls == null" id="project-container">
                     <div 
