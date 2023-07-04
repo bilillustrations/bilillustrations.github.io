@@ -1,7 +1,7 @@
 angular.module('app')
     .component('project', {
         templateUrl: "app/components/project/project.html",
-        controller: ["$scope", "projectsFactory", function ($scope, projectsFactory) {
+        controller: ["$scope", "projectsFactory", "$t", function ($scope, projectsFactory, $t) {
             $scope.hasError = true;
             var link = window.location.href.toString();
             var initpath = "?";
@@ -13,6 +13,8 @@ angular.module('app')
                     if (projectsFactory[i].slug == path) {
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
+
+                        $scope.description = $t($scope.project.slug + ".description");
                         break;
                     }
                 }

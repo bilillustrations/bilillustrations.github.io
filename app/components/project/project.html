@@ -15,7 +15,7 @@
                     <h2 class="mb-5 p-0">
                         {{project.slug + '.title' | translate}}
                     </h2>
-                    <div class="mt-5" ng-bind-html="project.slug + '.description' | translate | safeHtml">
+                    <div class="mt-5" ng-bind-html="description | safeHtml">
                         
                     </div>
                 </div>
