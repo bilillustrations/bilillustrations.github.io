@@ -15,7 +15,7 @@ angular.module('app')
                         $scope.project = projectsFactory[i];
 
                         console.log($translate($scope.project.slug + ".description"));
-                        $scope.description = stringToHTML($translate($scope.project.slug + ".description"));
+                        $scope.description = $scope.stringToHTML($translate($scope.project.slug + ".description"));
                         break;
                     }
                 }
@@ -25,7 +25,7 @@ angular.module('app')
                 return "col-sm-"+p;
             }
 
-            var stringToHTML = function (str) {
+            $scope.stringToHTML = function (str) {
                 var dom = document.createElement('div');
                 dom.innerHTML = str;
                 console.log(dom);
