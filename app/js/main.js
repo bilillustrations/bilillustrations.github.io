@@ -1,4 +1,4 @@
-var app = angular.module('app', ['pascalprecht.translate'])
+var app = angular.module('app', ['pascalprecht.translate', 'ngSanitize'])
     .config(["$translateProvider",
         function ($translateProvider) {
             $translateProvider.registerAvailableLanguageKeys(['en', 'ro', 'bg']);
