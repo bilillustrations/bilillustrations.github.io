@@ -28,6 +28,7 @@ angular.module('app')
             var stringToHTML = function (str) {
                 var dom = document.createElement('div');
                 dom.innerHTML = str;
+                console.log(dom);
                 return dom;
             };
         }]
