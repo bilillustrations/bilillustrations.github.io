@@ -1,7 +1,7 @@
 angular.module('app')
     .component('project', {
         templateUrl: "app/components/project/project.html",
-        controller: ["$scope", "projectsFactory", "$translate", function ($scope, projectsFactory, $translate) {
+        controller: ["$scope", "projectsFactory", "$translate", "$sce", function ($scope, projectsFactory, $translate, $sce) {
             $scope.hasError = true;
             var link = window.location.href.toString();
             var initpath = "?";
@@ -14,7 +14,9 @@ angular.module('app')
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
 
-                        $scope.description = $translate.use($scope.project.slug + ".description");
+                        console.log($translate.use($scope.project.slug + ".description"));
+                        $scope.description = $sce.trustAsHtml($translate.use($scope.project.slug + ".description"));
+
                         break;
                     }
                 }
@@ -25,8 +27,3 @@ angular.module('app')
             }
         }]
     })
-    .filter('safeHtml', ["$sce", function ($sce) {
-        return function (val) {
-            return $sce.parseAsHtml(val);
-        };
-    }]);
