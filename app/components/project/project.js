@@ -13,7 +13,7 @@ angular.module('app')
                     if (projectsFactory[i].slug == path) {
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
-                        console.log($sce.trustAsHtml($translate($scope.project.slug + ".description")));
+                        
                         $scope.description = $sce.trustAsHtml($translate($scope.project.slug + ".description"));
 
                         break;
