@@ -15,7 +15,7 @@ angular.module('app')
                         $scope.project = projectsFactory[i];
 
                         console.log($translate($scope.project.slug + ".description"));
-                        $scope.description = $scope.project.slug + ".description";
+                        $scope.description = stringToHTML($translate($scope.project.slug + ".description"));
                         break;
                     }
                 }
@@ -24,6 +24,12 @@ angular.module('app')
             $scope.getClassName = function(p) {
                 return "col-sm-"+p;
             }
+
+            var stringToHTML = function (str) {
+                var dom = document.createElement('div');
+                dom.innerHTML = str;
+                return dom;
+            };
         }]
     })
     .filter('trusted', ['$sce', function ($sce) {
