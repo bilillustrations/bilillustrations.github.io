@@ -1,7 +1,7 @@
 angular.module('app')
     .component('project', {
         templateUrl: "app/components/project/project.html",
-        controller: ["$scope", "projectsFactory", "$translate", function ($scope, projectsFactory, $translate) {
+        controller: ["$scope", "projectsFactory", "$translate", "$sce", function ($scope, projectsFactory, $translate, $sce) {
             $scope.hasError = true;
             var link = window.location.href.toString();
             var initpath = "?";
@@ -15,7 +15,7 @@ angular.module('app')
                         $scope.project = projectsFactory[i];
                         console.log($scope.project.slug + ".description");
                         console.log($translate($scope.project.slug + ".description"));
-                        $scope.description = $translate($scope.project.slug + ".description");
+                        $scope.description = $sce.trustAsHtml($translate($scope.project.slug + ".description"));
 
                         break;
                     }
