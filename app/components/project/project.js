@@ -14,8 +14,7 @@ angular.module('app')
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
 
-                        console.log($translate($scope.project.slug + ".description"));
-                        $scope.description = $scope.stringToHTML($translate($scope.project.slug + ".description"));
+                        $scope.description = $scope.project.slug + ".description";
                         break;
                     }
                 }
