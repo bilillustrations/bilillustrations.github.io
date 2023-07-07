@@ -15,7 +15,7 @@ angular.module('app')
                         $scope.project = projectsFactory[i];
                         $translate(("" + $scope.project.slug + ".description"))
                             .then(function (translatedValue) {
-                                $scope.sentences = translatedValue.description.split(/[.!?]/);
+                                $scope.sentences = translatedValue.split(/[.!?]/);
                             });
                         
                         break;
