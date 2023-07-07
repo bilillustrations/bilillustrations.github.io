@@ -13,9 +13,9 @@ angular.module('app')
                     if (projectsFactory[i].slug == path) {
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
-                        $translate($scope.project.slug + ".description")
+                        $translate($scope.project.slug)
                             .then(function (translatedValue) {
-                                $scope.sentences = translatedValue.split(/[.!?]/);
+                                $scope.sentences = translatedValue.description.split(/[.!?]/);
                             });
                         
                         break;
