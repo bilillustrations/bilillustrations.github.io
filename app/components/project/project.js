@@ -5,7 +5,7 @@ angular.module('app')
             $scope.hasError = true;
             var link = window.location.href.toString();
             var initpath = "?";
-           
+            $scope.sentences = [];
             if(link.indexOf(initpath) > 0) {
                 var path = link.substring(link.indexOf(initpath) + 1);
     
@@ -14,9 +14,9 @@ angular.module('app')
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
 
-                        $scope.description = $translate($scope.project.slug + ".description");
-                        console.log($scope.description);
+                        var description = $translate($scope.project.slug + ".description");
                         
+                        $scope.sentences = description.split(/[.!?]/);
                         break;
                     }
                 }
