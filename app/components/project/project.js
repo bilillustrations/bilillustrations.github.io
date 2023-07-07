@@ -14,7 +14,9 @@ angular.module('app')
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
 
-                        $scope.description = $scope.project.slug + ".description";
+                        $scope.description = $translate($scope.project.slug + ".description");
+                        console.log($scope.description);
+                        
                         break;
                     }
                 }
@@ -23,19 +25,5 @@ angular.module('app')
             $scope.getClassName = function(p) {
                 return "col-sm-"+p;
             }
-
-            $scope.stringToHTML = function (str) {
-                var dom = document.createElement('div');
-                dom.innerHTML = str;
-                console.log(dom);
-                return dom;
-            };
         }]
-    })
-    .filter('trusted', ['$sce', function ($sce) {
-        return function(url) {
-            console.log("trusted");
-            console.log(url);
-            return $sce.trustAsHtml(url);
-        };
-    }]);
+    });
