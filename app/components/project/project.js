@@ -1,7 +1,7 @@
 angular.module('app')
     .component('project', {
         templateUrl: "app/components/project/project.html",
-        controller: ["$scope", "projectsFactory", "$translate", function ($scope, projectsFactory, $translate) {
+        controller: ["$scope", "projectsFactory", "$filter", function ($scope, projectsFactory, $filter) {
             $scope.hasError = true;
             var link = window.location.href.toString();
             var initpath = "?";
@@ -14,7 +14,7 @@ angular.module('app')
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
 
-                        var description = $translate($scope.project.slug + ".description");
+                        var description = $filter("translate")($scope.project.slug + ".description");
                         
                         $scope.sentences = description.split(/[.!?]/);
                         break;
