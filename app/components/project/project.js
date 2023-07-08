@@ -13,11 +13,6 @@ angular.module('app')
                     if (projectsFactory[i].slug == path) {
                         $scope.hasError = false;
                         $scope.project = projectsFactory[i];
-                        // $translate(("" + $scope.project.slug + ".description"))
-                        //     .then(function (translatedValue) {
-                        //         $scope.sentences = translatedValue.split(/[.!?]/);
-                        //     });
-                        
                         break;
                     }
                 }
