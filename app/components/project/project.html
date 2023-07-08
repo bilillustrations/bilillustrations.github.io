@@ -16,7 +16,7 @@
                         {{project.slug + '.title' | translate}}
                     </h2>
                     <div class="mt-5">
-                        <p ng-repeat="sentence in sentences" class="mb-4">
+                        <p ng-repeat="sentence in (project.slug + '.description' | translate).split(/[.!?]/)" ng-if="sentence != ''" class="mb-4">
                             {{sentence}}.
                         </p>
                     </div>
