@@ -41,10 +41,9 @@
   const navbarlinksActive = () => {
     let position = window.scrollY + 200;
     navbarlinks.forEach(navbarlink => {
-      console.log(navbarlink);
-      console.log(navbarlink.hash);
       if (!navbarlink.hash) return;
-      let section = select(navbarlink.hash)
+      var sectionName = (navbarlink.hash).substr(asd.indexOf("#"));
+      let section = select(sectionName)
       if (!section) return;
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
         navbarlink.classList.add('active')
