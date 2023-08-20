@@ -37,25 +37,26 @@
   /**
    * Navbar links active state on scroll
    */
-  let navbarlinks = document.querySelectorAll("#navbar .scrollto");
-  const navbarlinksActive = () => {
-    debugger;
-    let position = window.scrollY + 200;
-    navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return;
-      var hash = navbarlink.hash;
-      var sectionName = hash.substr(hash.indexOf("#"));
-      let section = select(sectionName)
-      if (!section) return;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('active')
-      } else {
-        navbarlink.classList.remove('active')
-      }
-    })
+  var initNavScrollable = function() {
+    let navbarlinks = document.querySelectorAll("#navbar .scrollto");
+    const navbarlinksActive = () => {
+      let position = window.scrollY + 200;
+      navbarlinks.forEach(navbarlink => {
+        if (!navbarlink.hash) return;
+        var hash = navbarlink.hash;
+        var sectionName = hash.substr(hash.indexOf("#"));
+        let section = select(sectionName)
+        if (!section) return;
+        if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+          navbarlink.classList.add('active')
+        } else {
+          navbarlink.classList.remove('active')
+        }
+      })
+    }
+    window.addEventListener('load', navbarlinksActive);
+    onscroll(document, navbarlinksActive);
   }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
 
   /**
    * Scrolls to an element with header offset
@@ -151,6 +152,9 @@ window.initCategoryFilters = function(categoryId) {
           //first click
           document.getElementById("filter-"+categoryId).click();
       }
+
+      initNavScrollable();
+
     }
   }
 
