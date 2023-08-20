@@ -31,5 +31,7 @@ angular.module('app')
                     hasToggle[0].click();
                 }
             }
+
+            window.initNavScrollable();
         }]
     });

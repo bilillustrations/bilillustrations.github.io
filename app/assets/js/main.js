@@ -37,7 +37,7 @@
   /**
    * Navbar links active state on scroll
    */
-  var initNavScrollable = function() {
+  window.initNavScrollable = function() {
     let navbarlinks = document.querySelectorAll("#navbar .scrollto");
     const navbarlinksActive = () => {
       let position = window.scrollY + 200;
@@ -152,9 +152,6 @@ window.initCategoryFilters = function(categoryId) {
           //first click
           document.getElementById("filter-"+categoryId).click();
       }
-
-      initNavScrollable();
-
     }
   }
 
