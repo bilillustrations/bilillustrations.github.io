@@ -37,12 +37,14 @@
   /**
    * Navbar links active state on scroll
    */
-  let navbarlinks = select('#navbar .scrollto', true)
+  let navbarlinks = document.querySelectorAll("#navbar .scrollto");
   const navbarlinksActive = () => {
+    debugger;
     let position = window.scrollY + 200;
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return;
-      var sectionName = (navbarlink.hash).substr(asd.indexOf("#"));
+      var hash = navbarlink.hash;
+      var sectionName = hash.substr(hash.indexOf("#"));
       let section = select(sectionName)
       if (!section) return;
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
