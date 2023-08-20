@@ -1,7 +1,7 @@
 angular.module('app')
     .component('menu', {
         templateUrl: "app/components/menu/menu.html",
-        controller: ['$scope', '$translate', function ($scope, $translate) {
+        controller: ['$scope', '$timeout', function ($scope, $timeout) {
             $scope.menuItems = [
                 // {
                 //     link: "https://bilillustrations.github.io/",
@@ -31,7 +31,9 @@ angular.module('app')
                     hasToggle[0].click();
                 }
             }
-
-            window.initNavScrollable();
+            $timeout(function () {
+                window.initNavScrollable();
+            }, 0);
+           
         }]
     });
