@@ -33,12 +33,12 @@
     "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
   },
   "CONTACT": {
-    "TITLE":"Leave me a message",
-    "NAME": "Name",
-    "EMAIL": "E-mail",
-    "MESSAGE": "Message",
+    "TITLE":"Остави ми съобщение",
+    "NAME": "Име",
+    "EMAIL": "Имейл",
+    "MESSAGE": "Съобщение",
     "AGREE": "I agree on storing data by google.com",
-    "SEND": "Send"
+    "SEND": "Изпрати"
   },
   "ABOUT": {
     "TITLE": "За мен",

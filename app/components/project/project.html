@@ -28,11 +28,19 @@
                         class="py-3 px-0 px-sm-3"
                         data-ng-repeat="image in project.images track by $index" 
                         ng-class="getClassName(image)">
-                        <img  ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" 
+                        <img ng-if="!(project.slug == 'landscapes-yogurt-and-roses' && ($index == 9 || $index == 13|| $index == 14))"
+                            ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.png" 
                             class="fit-image" 
                             alt="{{project.slug + '.title'|translate}}"
                             loading="{{$index>5? 'lazy':'eager'}}"
                             fetchpriority="{{$index < 1? 'high':'auto'}}"/>
+                        <img ng-if="(project.slug == 'landscapes-yogurt-and-roses' && ($index == 9 || $index == 13|| $index == 14))"
+                            ng-src="app/assets/img/{{project.slug}}/{{$index+1}}.gif" 
+                            class="fit-image" 
+                            alt="{{project.slug + '.title'|translate}}"
+                            loading="{{$index>5? 'lazy':'eager'}}"
+                            fetchpriority="{{$index < 1? 'high':'auto'}}"/>
+
                     </div>
                 </div>
                 <div class="row" ng-if="project.images != null && project.imagesUrls != null" id="project-container">
