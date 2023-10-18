@@ -215,3 +215,13 @@
   .box:hover::after {
     right: 5px;
   }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: var(--accent-background-color);
+  }
+  
+  ::selection {
+    color: black;
+    background: var(--accent-background-color);
+  }

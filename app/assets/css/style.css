@@ -757,12 +757,3 @@ section {
   }
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: #ff9fbc;
-}
-
-::selection {
-  color: white;
-  background: #ff9fbc;
-}
