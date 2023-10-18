@@ -4,22 +4,22 @@ angular.module('app')
         controller: ['$scope', '$timeout', function ($scope, $timeout) {
             $scope.menuItems = [
                 // {
-                //     link: "https://bilillustrations.github.io/",
+                //     link: "http://bilillustrations.com/",
                 //     label: "MENU.HOME",
                 //     classes: "bx bx-home"
                 // },
                 {
-                    link: "https://bilillustrations.github.io/#portfolio",
+                    link: "http://bilillustrations.com/#portfolio",
                     label: "MENU.PORTFOLIO",
                     classes: "bi bi-journals"
                 },
                 {
-                    link: "https://bilillustrations.github.io/#about",
+                    link: "http://bilillustrations.com/#about",
                     label: "MENU.ABOUT",
                     classes: "bi bi-file-earmark-person"
                 },
                 {
-                    link: "https://bilillustrations.github.io/#contact",
+                    link: "http://bilillustrations.com/#contact",
                     label: "MENU.CONTACT",
                     classes: "bi bi-person-lines-fill"
                 }
