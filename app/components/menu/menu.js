@@ -9,17 +9,17 @@ angular.module('app')
                 //     classes: "bx bx-home"
                 // },
                 {
-                    link: "www.bilillustrations.com/#portfolio",
+                    link: "https://bilillustrations.com/#portfolio",
                     label: "MENU.PORTFOLIO",
                     classes: "bi bi-journals"
                 },
                 {
-                    link: "www.bilillustrations.com/#about",
+                    link: "https://bilillustrations.com/#about",
                     label: "MENU.ABOUT",
                     classes: "bi bi-file-earmark-person"
                 },
                 {
-                    link: "www.bilillustrations.com/#contact",
+                    link: "https://bilillustrations.com/#contact",
                     label: "MENU.CONTACT",
                     classes: "bi bi-person-lines-fill"
                 }
