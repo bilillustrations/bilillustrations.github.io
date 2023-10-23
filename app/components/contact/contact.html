@@ -10,8 +10,10 @@
             <div class="col-lg-8 col-xl-6 offset-xl-3 offset-lg-2">
                 <div>
                     <h4 class="p-0 ">{{"CONTACT.TITLE" | translate}}</h4>
+                    <iframe name="redirectframe" id="redirectframe" style="display: none;"></iframe>
                     <form action="https://docs.google.com/forms/d/1NGwjrlMAxPvR2xvg44k7u68HokObsYsy6oR-m_AIOF8/formResponse" 
                             method="post" 
+                            target="redirectframe"
                             name="contactForm">
                         <div class="my-4">
                             <label class="form-label px-4" for="entry.993355435">{{"CONTACT.EMAIL" | translate}} *</label>
@@ -35,5 +37,4 @@
             </div>
         </div>
     </div>
-</section>
-<!-- End Contact Section -->
+</section><!-- End Contact Section -->
