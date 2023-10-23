@@ -30,7 +30,10 @@
                                     required></textarea>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary rounded-5" ng-click="resetForm()">{{"CONTACT.SEND" | translate}}</button>
+                            <button type="submit" class="btn btn-primary rounded-5" ng-click="resetForm()">
+                                {{"CONTACT.SEND" | translate}}
+                                <i class="ms-2" ng-if="messageSent">&#10003;</i>
+                            </button>
                         </div>
                     </form>
                 </div>
