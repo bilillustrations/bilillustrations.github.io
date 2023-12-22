@@ -97,22 +97,20 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 6px;
+  margin-left: 6px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  max-width: 25%;
+  height: 50px;
   transition: 0.3s;
 }
 
 #header .profile .social-links a:hover {
-  background: #ec2224;
-  color: #fff;
-  text-decoration: none;
+  opacity: 0.8;
 }
 
 #main {
