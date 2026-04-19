@@ -1,0 +1,545 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "label": "CATEGORIES.ILLUSTRATIONS"
+    },
+    {
+      "id": 2,
+      "label": "CATEGORIES.BOOKS"
+    },
+    {
+      "id": 3,
+      "label": "CATEGORIES.GRAPHICDESIGN"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "slug": "landscapes-yogurt-and-roses",
+      "order": 10,
+      "images": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        6,
+        6,
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        7,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "slug": "imbratisatoarea",
+      "order": 3,
+      "images": [
+        6,
+        6,
+        4,
+        4,
+        4,
+        7,
+        5,
+        5,
+        7,
+        7,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "slug": "little-map",
+      "order": 0,
+      "images": [
+        12,
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "slug": "8-povestiri-de-vacanta",
+      "order": 4,
+      "images": [
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        12,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "slug": "magic-box",
+      "order": 5,
+      "images": [
+        12,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "slug": "improvesti",
+      "order": 6,
+      "images": [
+        12,
+        6,
+        6,
+        12,
+        12,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "slug": "rebel-girls",
+      "order": 7,
+      "images": [
+        12,
+        12,
+        12,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "slug": "teds-coffee",
+      "order": 1,
+      "images": [
+        12,
+        8,
+        4,
+        4,
+        8,
+        12,
+        12,
+        4,
+        8,
+        6,
+        6,
+        8,
+        4
+      ]
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "slug": "timm-thaler",
+      "order": 9,
+      "images": [
+        6,
+        6,
+        5,
+        7,
+        7,
+        5,
+        5,
+        7,
+        7,
+        5,
+        4,
+        4,
+        4,
+        6,
+        6,
+        7,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "slug": "inktober",
+      "order": 2,
+      "images": [
+        6,
+        6,
+        4,
+        4,
+        4,
+        12,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        12,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "slug": "5-poems",
+      "order": 12,
+      "images": [
+        6,
+        6,
+        12
+      ]
+    }
+  ],
+  "translations": {
+    "en": {
+      "TITLE": "Tutorials",
+      "LANGUAGE_SELECTOR": {
+        "BUTTON_LANG_EN": "EN",
+        "BUTTON_LANG_RO": "RO",
+        "BUTTON_LANG_BG": "BG"
+      },
+      "MENU": {
+        "HOME": "Home",
+        "PORTFOLIO": "Portfolio",
+        "ABOUT": "About me",
+        "CONTACT": "Contact"
+      },
+      "CATEGORIES": {
+        "ILLUSTRATIONS": "Illustrations",
+        "BOOKS": "Books",
+        "GRAPHICDESIGN": "Graphic design"
+      },
+      "PORTFOLIO": {
+        "TITLE": "Portfolio"
+      },
+      "GENERAL": {
+        "SHOW_MORE": "Arată mai mult",
+        "ALL": "All"
+      },
+      "FOOTER": {
+        "OK": "Do not show it again",
+        "RIGHTS": "All rights reserved",
+        "LEGAL": "Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted."
+      },
+      "ERROR": {
+        "TITLE": "Oups!",
+        "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+      },
+      "CONTACT": {
+        "TITLE": "Leave me a message",
+        "NAME": "Name",
+        "EMAIL": "E-mail",
+        "MESSAGE": "Message",
+        "AGREE": "I agree on storing data by google.com",
+        "SEND": "Send"
+      },
+      "ABOUT": {
+        "TITLE": "About me",
+        "P1": "Hi! I am Bilyana.",
+        "P2": "Since 2015 I have been active in the fields of illustration and graphic design, and most of the time I combine them. I discovered my passion quite early, so I enrolled in art high school, and then I graduated from the National University of Arts in Bucharest.",
+        "P3": "I love simple shapes and I'm always looking for details and surprising color combinations. I find my inspiration in the people around me and their stories, but also in trips near or far."
+      },
+      "landscapes-yogurt-and-roses": {
+        "title": "Landscapes, Yogurt and Roses",
+        "description": " ”Landscapes, Yogurt and Roses” is an illustrated, functional travel guide showcasing my homeland, Bulgaria. This project was born out of a genuine desire to create a welcoming visual identity, that captures Bulgaria’s beauty and rich culture. //Within the book’s 100 pages, readers will discover the descriptions and illustrations highlighting the most intriguing tourist attractions, cities, traditions and specific cuisine. The guide is accompanied by a range of promotional materials including a set of postcards, stickers and t-shirts, adorned with the illustrations featured in the book.//The photographs used in the project are captured by Andrey Andreev and Vladislav Terziiski.//Master Thesis, National University of Arts, Bucharest, July 2017"
+      },
+      "imbratisatoarea": {
+        "title": "The hugger",
+        "description": "”The Hugger” tells the story of Daria, a little girl with an extraordinary dream: to become a professional hugger. On a marvellous adventure, she will encounter a bunch of intriguing characters.//Daria’s story serves as an uplifting inspiration for both young and adult girls around the world, exemplifying the inherent power within all girls to nurture dreams and manifest them into reality."
+      },
+      "little-map": {
+        "title": "Bucharest: A little map of the big city.",
+        "description": "”A Little Map of the Big City” aims to connect both its locals and its visitors with patrimony, captivating stories and individuals who played integral roles in shaping the city during the ages. The project is a collaboration with Claudia Ciontu, the author of the tourist guide ”Plăiuț”.//When fully unfolded, the map measures 60x44cm. However, you can fold it so it easily fits into a specially designed paper box.//The project showcases 16 iconic landmarks in Bucharest and challenges you to discover them. With a warm and delicate colour palette, the playful and simplified art style includes amusing details. The map is for kids and adults alike, who are searching for the beauty of the big city.//The little map of the big city was part of the Romanian Design Week exhibition in 2023."
+      },
+      "8-povestiri-de-vacanta": {
+        "title": "8 Holiday Stories",
+        "description": "”8 Holiday Stories” takes readers on a realistic, but entertaining journey through the Romanian vacations of the 80s. Narrated by Adina, an inquisitive young girl, the book captures the essence of finding joy in simple things.//Despite having the action take place in a bygone era, I chose to create the illustrations using digital techniques. By incorporating textures and employing a desaturated colour palette, the images have a slightly vintage charm."
+      },
+      "magic-box": {
+        "title": "Magic Box",
+        "description": "The Magix Box served as the central component of Bookster’s Christmas marketing campaign in December 2020.//Bookster, an innovative Romanian business, offers easy access to hundreds of books that you can borrow. Resembling a traditional library, the key distinction lies in the convenience of receiving and returning books directly at one’s workplace.//The campaign was designed to foster a reading habit among the Bookster community with more than 90.000 subscribers.//Users were provided with access to a dedicated web page where they could easily order the Magic Box. Within the box, recipients discovered a surprise book accompanied by some Christmas-themed goodies."
+      },
+      "improvesti": {
+        "title": "Improvised Fairy Tales",
+        "description": "While the enchanting tales of Cinderella or Red Riding Hood have their allure, you have to know that not all children seek solace in those familiar bedtime stories.//Wouldn’t it be more fun to listen to freshly crafted fairy tales by Mom or Dad, especially for you? Picture whimsical tales about a feather, a red snowflake, a fixed idea or any other amusing concept that crosses your mind."
+      },
+      "rebel-girls": {
+        "title": "The rebellious ones",
+        "description": "”The Rebellious” is a two-volume book, commemorating the 100 years of modern Romania. It encompasses 100 stories that delve into the lives of remarkable Romanian women.//To create this compilation, five female authors curated stories about the lives of these Romanian female role models. In the book, they inquire into their values, wonderings and decisions that changed world history.//The book is generously illustrated by a group of local female artists.//Univers Publishing House, 2019"
+      },
+      "teds-coffee": {
+        "title": "TED'S Coffee Co.",
+        "description": "TED’S Coffee Co. is a popular Romanian coffee shop chain, boasting over 50 locations across the entire country. They exclusively utilize premium speciality coffee in the preparation of their beverages. In addition to coffee, they offer healthy snacks from local brands.//With a primary focus on attracting teenagers and young adults, the brand’s visual identity underwent a revitalization process greatly influenced by street art culture and design.//The colour palette is bright and bold, ensuring immediate recognition even from a distance.//While the previous logo was kept unchanged, the novelty came from the seamless pattern I created and declined for their cups, interior design and promotional materials such as posters, packages and various shop items."
+      },
+      "timm-thaler": {
+        "title": "Timm Thaler or The Boy Who Sold His Laughter",
+        "description": "”Timm Thaler or The Boy Who Sold His Laughter” was my first fully digitally illustrated book. For me, it proved to be a successful experiment and since then, I have delved deeper into the intricacies of this drawing technique.//The book is a 1962 children’s novel by the German writer James Krüss.//Timm has the most delightful laughter you will ever hear. It’s so charming that one day, a wealthy mysterious baron offers him a trade he can’t refuse: his laughter in exchange for the ability to win any bet he makes.//Excited by the possibility to become rich, the boy accepts the proposition. Unfortunately, Timm discovers shortly that life is awful if you can’t even smile, so he sets on a journey to recover his laughter at all costs.//Arthur Publishing House, 2018"
+      },
+      "inktober": {
+        "title": "Inktober",
+        "description": "Inktober is an annual challenge initiated in 2009 by Jake Parker, a New York Times Best-Selling illustrator. It was born out of Parker’s quest to enhance his inking skills and cultivate positive drawing habits. It has since grown into a worldwide endeavour with thousands of artists taking on the challenge each year.//Presented here is my contribution to the 2020 edition: a collection of 31 hand-drawn illustrations crafted using Posca pens and liners."
+      },
+      "emotions": {
+        "title": "Are you in harmony with your emotions?",
+        "description": "“Are you in harmony with your emotions?” stands as one of my most cherished campaigns by Bookster. Born in response to the challenging times that marked the beginning of 2020, its purpose was to grant our emotions a voice, fostering a deeper comprehension of their essence and to fully experience them.//The centrepiece of the campaign is the website emotii.bookster.ro, where Bookster offers personalized recommendations based on your current predominant emotion.//The campaign was promoted both online and offline, through a range of marketing tools, including illustrated stickers and a downloadable mood tracker in a PDF format."
+      },
+      "5-poems": {
+        "title": "5 Poems",
+        "description": "”5 poems” is a project challenge started in 2018 by Ramona Chirică, a communication freelancer and founder of Studio Receptor. Every month, Ramona selects five of her favourite poems and extends an invitation to five illustrators to visually interpret them.//Among the chosen poems, I was privileged to illustrate ”Wearing the Collar” by Charles Bukowski.//I infused it with a touch of humour and I envisioned the main character as a sophisticated canine gentleman of the 17th century. Against a backdrop of darkness, some watchful pairs of cat eyes are fixed upon him."
+      }
+    },
+    "ro": {
+      "TITLE": "Tutoriale",
+      "LANGUAGE_SELECTOR": {
+        "BUTTON_LANG_EN": "EN",
+        "BUTTON_LANG_RO": "RO",
+        "BUTTON_LANG_BG": "BG"
+      },
+      "MENU": {
+        "HOME": "Acasă",
+        "PORTFOLIO": "Portofoliu",
+        "ABOUT": "Despre mine",
+        "CONTACT": "Contact"
+      },
+      "CATEGORIES": {
+        "ILLUSTRATIONS": "Ilustrații",
+        "BOOKS": "Cărți",
+        "GRAPHICDESIGN": "Design grafic"
+      },
+      "PORTFOLIO": {
+        "TITLE": "Portofolio"
+      },
+      "GENERAL": {
+        "SHOW_MORE": "Arată mai multe",
+        "ALL": "Toate"
+      },
+      "FOOTER": {
+        "OK": "Nu mai afișa în viitor",
+        "RIGHTS": "Toate drepturile rezervate",
+        "LEGAL": "Orice reproducere, lucrări derivate, distribuție sau descărcare a lucrării afișate pe acest site web fără permisiunea proprietarului este restricționată."
+      },
+      "ERROR": {
+        "TITLE": "Oups!",
+        "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+      },
+      "CONTACT": {
+        "TITLE": "Lasă-mi un mesaj",
+        "NAME": "Nume",
+        "EMAIL": "E-mail",
+        "MESSAGE": "Mesaj",
+        "AGREE": "Sunt de acord ca datele furnizate să fie stocate de google.com",
+        "SEND": "Trimite"
+      },
+      "ABOUT": {
+        "TITLE": "Despre mine",
+        "P1": "Bună! Eu sunt Bilyana.",
+        "P2": "Din 2015 activez în domeniile ilustrației și designului grafic, iar de cele mai multe ori le îmbin. Mi-am descoperit pasiunea destul de devreme, așa că m-am înscris la liceul de arte, urmând ca apoi să absolv Universitatea Națională de Arte din București.",
+        "P3": "Îmi plac formele simple și sunt mereu în căutarea detaliilor și combinațiilor cromatice surprinzătoare. Inspirația mi-o găsesc în oamenii din jurul meu și poveștile lor, dar și în călătoriile apropiate sau îndepărtate."
+      },
+      "landscapes-yogurt-and-roses": {
+        "title": "Landscapes, Yogurt and Roses",
+        "description": "„Landscapes, Yogurt and Roses” este un ghid turistic ilustrat al țării mele native, Bulgaria. Proiectul a apărut din dorința de a crea o identitate vizuală prietenoasă, care să reflecte frumusețea și cultura Bulgariei.//Cartea descrie și reprezintă în 100 de pagini, bucătăria locală și cele mai interesante locuri, orașe și tradiții. Ghidul vine împreună cu materiale promoționale precum setul de cărți poștale, stickere și tricouri, decorate cu ilustrațiile din carte.//Fotografiile folosite în proiect sunt realizate de Andrey Andreev și Vladislav Terziiski.//Lucrare de disertație, Universitatea Națională de Arte, București, iulie 2017"
+      },
+      "imbratisatoarea": {
+        "title": "Îmbrățișătoarea",
+        "description": "Cartea „Îmbrățișătorea” spune povestea Dariei, o fetiță cu un vis extraordinar: să devină o îmbrățișătoare profesionistă. Ea va avea parte de o călătorie fantastică, în care se va întâlni cu o grămadă de personaje interesante.//Daria poate fi inspirație pentru toate fetele, mici și mari, din jurul lumii. Este dovada că suntem puternice, visăm și ne transformăm visurile în realitate."
+      },
+      "little-map": {
+        "title": "București: Mică hartă a marelui oraș",
+        "description": " „Mică hartă a marelui oraș” este un proiect care își propune să-i conecteze atât pe locuitorii, cât și pe vizitatorii Bucureștiului cu patrimoniul, poveștile și oamenii care l-au ridicat de-a lungul timpului. Proiectul a fost în colaborare cu Claudia Ciontu, autoarea ghidului turistic „Plăiuț”.//Harta desfășurată măsoară 60x44cm, se împăturește și se împachetează ușor într-o cutie special creată. Proiectul ilustrează 16 dintre cele mai cunoscute locuri din București și te provoacă să le descoperi farmecul inedit. Cromatica este una caldă și blândă, iar stilul vizual jucăuș și stilizat cuprinde detalii amuzante. Este destinată celor mici și celor mari, care caută frumusețea marelui oraș.//„Mică hartă a marelui oraș” a făcut parte din expoziția Romanian Design Week 2023."
+      },
+      "8-povestiri-de-vacanta": {
+        "title": "8 povestiri de vacanță",
+        "description": "„8 povestiri de vacanță” este o călătorie realistă, dar amuzantă în lumea concediilor din România anilor 1980. Bucuria lucrurilor simple este descrisă cu vocea Adinei, un copil curios, care observă cu interes tot ce îl înconjoară.//În ciuda faptului că acțiunea se desfășoară într-un alt secol, am ales să ilustrez cartea digital. Totuși, pentru a oferi un aspect vintage imaginilor, am folosit texturi și o paletă de culori desaturată."
+      },
+      "magic-box": {
+        "title": "Cutie cu magie",
+        "description": "„Cutia cu magie” este elementul principal al unei campanii de marketing, desfășurată în decembrie, 2020 de către platforma Bookster.//Campania și-a propus să încurajeze obiceiul cititului în comunitatea formată de peste 90.000 de abonați.//Participanții accesau pagina web și își exprimau dorința de a primi o cutie cu magie. Aceasta conținea o carte surpriză și un pachet de goodies de sezon.  "
+      },
+      "improvesti": {
+        "title": "Improvești",
+        "description": "Oricât de frumoase și de neuitat ar fi poveștile cu Harap-Alb sau cu Cenușăreasa, să știți că sunt unii copii care nici nu vor să audă de așa ceva la ora de culcare.//Păi nu-i mai distractiv să asculți povești nou-nouțe, proaspăt născocite de mama sau de tata numai și numai pentru tine? Povești cu o pană, cu un fulg roșu sau cu orice alt subiect hilar care îți trece prin minte? Noi așa zicem."
+      },
+      "rebel-girls": {
+        "title": "Nes(u)pusele",
+        "description": "„Nesupusele” este o carte în două volume ce conține o sută de poveşti despre femei remarcabile din România, publicată cu ocazia celor 100 de ani de România modernă.//Cele cinci autoare au adunat într-un loc aceste povestiri despre modele feminine, valori, alegeri și întrebări, iar apoi le-au reimaginat prin prisma vieților unor românce care au influențat istoria mondială.//Fiecare poveste este însoțită de o ilustrație creată de o gașcă de artiste locale.//Editura Univers, 2019"
+      },
+      "teds-coffee": {
+        "title": "TED'S Coffee Co.",
+        "description": "TED’S Coffee Co. este un lanț de cafenele cu peste 50 de locații aflate în orașele mari din România. Aici te poți bucura întotdeauna de băuturi preparate cu cafea de specialitate.//Publicul țintă le este format din adolescenți și tineri adulți. Motiv pentru care, arta stradală a fost cea care a ghidat puternic redesenarea identității vizuale TED’S. Paleta de culori este formată din culori saturate și puternice, ușor de observat de la distanța.//Logoul a fost păstrat în formă lui inițială, însă desenul principal este un element nou, care poate fi repetat la nesfârșit pentru a acoperi suprafețe de dimensiuni mari. Acesta decorează paharele și o mare parte din materialele promoționale: afișe, ambalaje și diverse obiecte care pot fi achiziționate. De asemenea este un element prezent în designul interior al cafenelelor."
+      },
+      "timm-thaler": {
+        "title": "Timm Thaler sau râsul vândut",
+        "description": "„Timm Thaler sau râsul vândut” este primă mea carte ilustrată integral digital. Am considerat-o un experiment reușit și de atunci am început să aprofundez această tehnică de desen.//Cartea este un roman adresat copiilor, scris de James Krüss.//Timm are un râs absolut minunat. E atât de fermecător, încât misteriosul baron Lovaid îi propune un târg nemaiauzit: să-i dea râsul său, iar în schimb, Timm să câștige orice pariu.//Fascinat de posibilitatea de a se îmbogăți, băiatul acceptă propunerea. Însă, nu peste mult timp Timm descoperă că viața e cruntă atunci când nu poți nici măcar să zâmbești, așa că pleacă de acasă în căutarea baronului, hotărât să-și recupereze râsul cu orice preț.//Editura Arthur, 2018"
+      },
+      "inktober": {
+        "title": "Inktober",
+        "description": "Inktober este o provocare anuală care a fost începută în 2009 de către Jake Parker, unul dintre cei mai bine cotați ilustratori New York Times. Proiectul a pornit din dorința lui Parker de a-și menține obiceiul de a desena și de a-și dezvolta abilitatea de a lucra cu cerneală. De atunci, Inktober a crescut la nivel internațional și mii de artiști acceptă provocarea în fiecare an.//Acestea sunt desenele mele din ediția 2020: o serie de 31 de ilustrații, desenate de mână cu markere Posca și linere."
+      },
+      "emotions": {
+        "title": "Citеști în armonie cu emoțiile tale?",
+        "description": "Citеști în armonie cu emoțiile tale?” este printre campaniile mele favorite marca Bookster. A venit ca răspuns unei perioade dificile la început de 2020 și a avut scopul de a ne face să dăm voce emoțiilor noastre, să le înțelegem mai bine și să le trăim conștient.//Elementul principal al campaniei a fost pagina emotii.bookster.ro. unde Bookster îți oferea o recomandare de lectură bazată pe emoția pe care o simțeai în acel moment. Pentru promovarea campaniei ne-am folosit de instrumente online și offline, precum o serie de abțibilduri ilustrate și un mood tracker în format PDF."
+      },
+      "5-poems": {
+        "title": "5 Poems",
+        "description": "„5 poems” este un proiect-provocare început în 2018 de către Ramona Chirică, freelancer în comunicare și fondator Studio Receptor. Lunar, Ramona selectează câte cinci poezii deosebite, iar apoi invită cinci ilustratori care să le reproducă prin prisma lor.//Poezia pe care am avut ocazia să o ilustrez se numește „Wearing the collar”și este scrisă de Charles Bukowski. Am ales să o abordez cu o doză de umor, așa că mi-am imaginat personajul principal ca fiind un câine burghez din secolul al XVII-lea. Pe care, din fundalul întunecos, îl urmăresc atent ochi de pisică."
+      }
+    },
+    "bg": {
+      "TITLE": "Уроци",
+      "LANGUAGE_SELECTOR": {
+        "BUTTON_LANG_EN": "EN",
+        "BUTTON_LANG_RO": "RO",
+        "BUTTON_LANG_BG": "BG"
+      },
+      "MENU": {
+        "HOME": "Начало",
+        "PORTFOLIO": "Портфолио",
+        "ABOUT": "За мен",
+        "CONTACT": "Контакт"
+      },
+      "CATEGORIES": {
+        "ILLUSTRATIONS": "Илюстрации",
+        "BOOKS": "Книги",
+        "GRAPHICDESIGN": "Графичен дизайн"
+      },
+      "PORTFOLIO": {
+        "TITLE": "Портфолио"
+      },
+      "GENERAL": {
+        "MORE_DETAILS": "Покажи повече",
+        "ALL": "всички"
+      },
+      "FOOTER": {
+        "OK": "Не го показвай отново",
+        "RIGHTS": "Всички права запазени",
+        "LEGAL": "Всяко възпроизвеждане, производни произведения, разпространение или изтегляне на произведението, показано на този уебсайт, без разрешението на собственика е ограничено."
+      },
+      "ERROR": {
+        "TITLE": "Oups!",
+        "NOT_FOUND": "This page was not found. Please be sure you entered a valid project."
+      },
+      "CONTACT": {
+        "TITLE": "Остави ми съобщение",
+        "NAME": "Име",
+        "EMAIL": "Имейл",
+        "MESSAGE": "Съобщение",
+        "AGREE": "I agree on storing data by google.com",
+        "SEND": "Изпрати"
+      },
+      "ABOUT": {
+        "TITLE": "За мен",
+        "P1": "Здравей! Аз съм Биляна.",
+        "P2": "От 2015 работя активно в сферата на графичния дизайн и илюстрацията, а много често обичам и да ги комбинирам. Открих любовта си към рисуването сравнително рано. Завърших гимназия по изкуствата, а след това продължих да следвам в Националния Университет по Изкуствата в Букурещ.",
+        "P3": "Харесвам простите форми и винаги съм в търсене на изненадващи детайли и цветови комбинации. Черпя вдъхновение от хората около мен и историите им, но и от близките и далечни пътувания."
+      },
+      "landscapes-yogurt-and-roses": {
+        "title": "Landscapes, Yogurt and Roses",
+        "description": "„Landscapes, Yogurt and Roses” е туристически, илюстриран гид за България, моята родна страна. Проектът се роди от желанието ми да създам приветлива визуална идентичност, която да отразява красотата и културата на България. Книгата описва и илюстрира най-интересните места, градове, традиции и местната кухня в 100 страници. Придружена е от промоционални материали като комплект пощенски картички, стикери и тениски с илюстрациите от книгата.//Фотографиите, използвани в проекта са реализирани от Андрей Андреев и Владислав Терзийски.//Дипломна работа, Национален Университет по Изкуствата, Букурещ, Юли 2017"
+      },
+      "imbratisatoarea": {
+        "title": "Професия прегъщач",
+        "description": "„Професия Прегръщач“ разказва историята на Дария, малко момиче с необикновена мечта: да стане професионален прегъщач. Дария преминава през невероятно пътешествие, срещайки се с безброй интересни персонажи.//Историята ѝ е вдъхновение за всички малки и големи момичета по целия свят. Тя е напомняне за това, да бъдем смели и да сбъдваме мечтите си. "
+      },
+      "little-map": {
+        "title": "Букурещ: Малка карта на големия град",
+        "description": "„Букурещ—малка карта на големия град“ си поставя за цел да свърже жителите и посетителите на града с архитектурното и историческото си наследство, със случките и хората, които са го издигнали през годините. Проектът е съвместна работа с Клаудия Чонту, автор на туристическия гид „Plăiuț”.//Разгърната, картата е с размери 60Х44см. Сгъва се до компактен формат и се побира в специално създанена за нея кутия. Илюстрира 16 от най-известните места в Букурещ и те предизвиква да ги (пре)откриеш. Цветовете са топли и приветливи. Илюстрациите—стилизирани с доза хумор. Картата е предназначена както за деца така и за възрастни, които са в търсене на красотата на големия град.//Малката карта на големия град бе част от изложбата „Седмица на румънския дизайн“ през май 2023."
+      },
+      "8-povestiri-de-vacanta": {
+        "title": "8 ваканционни случки",
+        "description": "„8 ваканционни случки“ е реалистично и хумористично пътуване в света на ваканциите в Румъния през 80те години. Радостта от малките неща е преразказана през призмата на Адина, любопитно дете, което открива светът, който го заобикаля.//Въпреки че, действието се развива през друга епоха, реших да илюстрирам книгата дигитално. Използвах текстури и ненаситена цветова палитра, за да предам на рисунките състарен вид."
+      },
+      "magic-box": {
+        "title": "Кутия с магия",
+        "description": "Кутия с магия е основния елемент в коледната, маркетинг кампания на Bookster през декември 2020.//Bookster е иновативен бизнес, който предлага лесен достъп до хиляди заглавия, онлайн статии, подкасти и образователни видеа. Чрез специален абонамент, можеш да заемаш книги на принципа на класическа библиотека, с тази разлика, че те се доставят веднъж седмично директно на работното ти място.//Кампанията си поставя за цел да популяризира четенето като навик сред общността от над 90.000 потребители. Посещавайки уеб страницата на кампаният, можеш да поръчаш своята кутия, която съдържа книга, подбрана за теб от Bookster, но и коледни лакомства и изненади."
+      },
+      "improvesti": {
+        "title": "Импровизирани приказки",
+        "description": "Колкото и красиви и незабравими да са приказките за Пепеляшка или Червената Шапчица, трябва да знаете, че има деца, които не искат дори и да чуят за тях, когато е време за сън.//Не е ли много по-забавно да слушаш чисто нови приказки, току-що измислени от мама или татко, специално за теб? Приказки за едно перо, червена снежинка, фикс-идея или каквото и да е щуро нещо, което ти мине през ума?"
+      },
+      "rebel-girls": {
+        "title": "Непокорните",
+        "description": "„Непокорните“ е книга в два тома, която представя историите на 100 забележителни жени, послучай 100-годишнината на модерна Румъния. 5 писателки събират на едно място тези истории за женственост, стойност, търсене и трудни решения, оставили отпечатък в световната история.//Книгата е богато изрисувана от група илюстраторки.//Издателска къща Универс, 2019"
+      },
+      "teds-coffee": {
+        "title": "TED'S Coffee Co.",
+        "description": "TED’S Coffee Co. е верига кафенета с над 50 локации в големите румънски градове. Напитките се приготват със specialty coffee, което произхожда от 6 прецизно избрани плантации от целия свят.//Целевата група са тийнейджърите и младите възрастни. Това е и основният мотив новата визуална идентичност да бъде повлияна от стрийт арт културата и графитите. Цветовата палитра се състои от ярки и контрастни цветове, които привличат вниманието от разстояние.//Логото е запазено в първоначалната си форма. Новият елемент във визуалната идентичност е десенът, който може да бъде повтарян до безкрай, за да покрие дори повърхности с големи размери. Десенът и отделни елементи от него са използвани за дизайна на чашите, интериора, плакати, опаковки и различни артикули от магазина TED’S Coffee."
+      },
+      "timm-thaler": {
+        "title": "Тим Талър и продаденият смях",
+        "description": "„Тим Талър или продадения смях“ е първата книга, която илюстрирах дигитално. За мен беше успешен експеримент и след това продължих да разучавам тази техника с голям интерес.//Книгата е детски роман, написан през 1962 от Джеймс Крюс. Тим има най-звънкия смях, който някога ще чуеш. Толкова е пленителен, че един ден, мистериозен богат барон му предлага сделка, на която трудно можеш да откажеш: в замяна на смеха си, Тим ще печели всеки облог, който направи.//Развълнуван от възможността да забогатее лесно, момчето приема предложението. Не след дълго открива, че животът е практически невъзможен без дори да можеш да се усмихнеш и поема на приключение, за да си върне обратно смеха на всяка цена.//Издателска къща Артур, 2018"
+      },
+      "inktober": {
+        "title": "Inktober",
+        "description": "Inktober е ежегодно предизвикателство, започнало през 2009-та година. Създателят му, Джейк Паркър, е един от най-добре продаваните илюстратори на New York Times. Inktober е резултата на желанието му да открие начин, който да му помогне да развие умението си да работи с мастило, но и да си създаде позитивен навик да рисува всеки ден.//Това е моето участие в 11-тото издание: серия от 31 илюстрации. Техника: маркери Поска и тънкописци върху Moleskin скижник."
+      },
+      "emotions": {
+        "title": "Are you in harmony with your emotions?",
+        "description": "„В хармония с емоциите си“ е една от любимите ми маркетинг кампании Bookster. Тя се появи като отговор на събитията от началото на 2020г. Целта и бе да ни насърчи да дадем гласност на емоциите си, да ги разпознаем и да ги изживеем пълноценно.//Главният елемент на кампанията е уеб страницата emotii.bookster.ro, където Bookster ти препоръчва четиво на базата емоцията, която би искал да опознаеш и разбереш по-добре.//Кампанията беше популяризирана както в онлайн пространството така и офлайн, чрез серия от илюстрирани стикери, mood tracker в PDF формат и други промоционални материали."
+      },
+      "5-poems": {
+        "title": "5 Poems",
+        "description": "„5 poems” започва през 2018та година като проект под формата на предизвикателство. Идеята е на Рамона Кирика, основател на студио Рецептор и фрийленсър в областта на комуникацията.//Ежемесечно, Рамона избира 5 поезии и отправя покана към 5 илюстратора, които да ги изобразят.//Подходих към предизвикателството с доза хумор. Представих си главния герой като изискан джентълмен от 17ти век. От тъмното, внимателно го следват котешки очи."
+      }
+    }
+  }
+}
